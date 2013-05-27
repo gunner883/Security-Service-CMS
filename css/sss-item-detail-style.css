@@ -1,0 +1,49 @@
+
+
+.overview
+{
+    color: #5e5e5e;
+    width: 90%;
+    margin-right:auto;
+    margin-left: auto;
+    padding-top: 40px;
+
+}
+
+.overview h2 
+{
+    font-size: 34px;
+    padding-bottom: 15px;
+	color:#FF8000;
+}
+
+.overview img 
+{
+    float:left;
+    margin:10px;
+	/*padding-bottom: 15px;*/
+    /*width: 240px;
+    height: 180px;*/
+}
+
+.overview  h3 
+{
+    font-size: 16px;
+    color: #FF8000;
+    padding-bottom: 10px; 
+}
+
+.overview  p {
+
+    font-size: 12px;
+    padding-bottom: 15px;
+}
+
+.entry { overflow: auto; overflow-x: hidden; height:300px;}
+
+
+
+
+
+
+/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */

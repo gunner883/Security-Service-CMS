@@ -2,6 +2,10 @@
 [Bb]in/
 [Oo]bj/
 
+# Umbraco Source
+Umbraco
+Umbraco_Client
+
 # mstest test results
 TestResults
 

@@ -1,0 +1,19 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/SSSContentBaseTemplate.master" AutoEventWireup="true" %>
+
+<asp:content ContentPlaceHolderId="content" runat="server">
+	
+	<cd:CssInclude runat="server" id="multiColumnCSS" FilePath="css/sss-3-column-style.css" Priority="4" />
+	
+	<div class="columns">
+	    <div class="panel">
+			<umbraco:Macro ContentNode="1175" Alias="sc-render-service-panel-headers-only" runat="server"></umbraco:Macro>
+	    </div>
+        <div class="panel">
+			<umbraco:Macro ContentNode="1176" Alias="sc-render-service-panel-headers-only" runat="server"></umbraco:Macro>
+        </div>
+        <div class="panel">
+			<umbraco:Macro ContentNode="1177" Alias="sc-render-service-panel-full" runat="server"></umbraco:Macro>
+        </div>
+	</div>	
+	
+</asp:content>

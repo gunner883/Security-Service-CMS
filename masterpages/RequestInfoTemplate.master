@@ -1,0 +1,5 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/umbraco/masterpages/default.master" AutoEventWireup="true" %>
+
+<asp:Content ContentPlaceHolderID="ContentPlaceHolderDefault" runat="server">
+<umbraco:Macro ID="Macro2" EmailToAddress="Rocco.lombardo@gmail.com" emailSubject="Security Service Specialists" Alias="sc-process-email-request" runat="server"></umbraco:Macro>
+</asp:Content>

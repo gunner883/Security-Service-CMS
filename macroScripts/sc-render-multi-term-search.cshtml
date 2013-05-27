@@ -1,0 +1,115 @@
+﻿@using Examine
+@using UmbracoExamine
+
+@inherits umbraco.MacroEngines.DynamicNodeContext
+
+@{
+  // Store the search value
+  var term = Request["searchTerm"];
+  //   
+  var criteria = ExamineManager.Instance.SearchProviderCollection["RazorSiteSearcher"].CreateSearchCriteria(UmbracoExamine.IndexTypes.Content, Examine.SearchCriteria.BooleanOperation.Or);
+  
+  Examine.SearchCriteria.IBooleanOperation filter = null;
+  
+  // Create array of node fields to be searched
+  var fields = new string[] { "nodeName", "bodyText", "articleOverview", "serviceOverview", "featureOverview" };
+  
+  // Split & iterate each word within the search term
+  foreach (var t in term.Split(' '))
+  {
+    if (filter == null)
+    {
+      filter = criteria.GroupedOr(fields, t);
+    }
+    else
+    {
+      filter = filter.Or().GroupedOr(fields, t);
+    }
+  }
+  if(filter == null)
+  {
+    filter = criteria.GroupedOr(fields, term);
+  }
+  else
+  {
+    filter = filter.Or().GroupedOr(fields, term);
+  }
+  
+  // Not include pages hidden from navigation
+  filter.Not().Field("umbracoNaviHide", "1");
+  
+  // Execute the search query & order by score
+  var results = Examine.ExamineManager.Instance
+    .SearchProviderCollection["RazorSiteSearcher"]
+    .Search(filter.Compile())
+    .OrderByDescending(x => x.Score);
+
+  var noResults = results.Count();
+}
+
+    <p>You searched for "@term", and found <span>@noResults</span> results:</p>
+    
+    <ul class="search-results">
+        @foreach (var result in results)
+        {
+            var node = Library.NodeById(result.Id);
+            var nodeName = result.Fields["nodeName"];
+            var nodeUrl = umbraco.library.NiceUrl(node.Id);
+                
+            string alias = node.NodeTypeAlias;
+            string iconImage = "";
+            string itemType = "";
+            string cssClass = "";
+            var content = "";
+            
+            //assign an icon to the result:
+            switch(alias)
+            {
+                case "feature":
+                case "article":
+                case "serviceItem":
+                    iconImage = "/media/1020/Doc-icon.png";
+                    itemType = "Content-item";
+                    cssClass = "orange";                 
+                    break;
+                
+                default:
+                    iconImage = "/media/1018/Web-HTML-icon.png";
+                    itemType = "Web-page";
+                    cssClass = "blue";
+                    break;
+            }
+
+            switch (alias)
+            {
+                case "feature":
+                    content = umbraco.library.RemoveFirstParagraphTag(node.featureOverview.ToString());
+                    break;
+                    
+                case "article":
+                    content = umbraco.library.RemoveFirstParagraphTag(node.articleOverview.ToString());
+                    break;
+                    
+                case "serviceItem":
+                    content = umbraco.library.RemoveFirstParagraphTag(node.serviceOverview.ToString());
+                    break;                
+                    
+                default:
+                    itemType = "Web-page";
+                    break;
+            }
+            
+            
+            <li>
+                @*<img class="search-result-icon" src="@iconImage" />*@
+                <div class="search-result-content">
+                    <div class="search-result-header"><a href="@node.Url" class="@cssClass">@nodeName</a></div>
+                    <div class="field-container">
+                        @*<div class="label">Type:</div>*@
+                        <div class="field">@content</div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </li>
+        }
+    </ul>

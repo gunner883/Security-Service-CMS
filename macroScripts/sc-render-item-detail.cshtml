@@ -1,0 +1,44 @@
+﻿@using umbraco.MacroEngines;
+@inherits umbraco.MacroEngines.DynamicNodeContext
+
+
+@{
+    var item = Model;
+    string alias = item.NodeTypeAlias;
+
+    switch (alias)
+    {
+       case "feature":
+            <h2>@item.Name</h2>
+            
+            if(@item.featureImage!="")
+            {
+                 <img src="@Model.MediaById(@item.itemImage).umbracoFile" alt="@item.Name" />
+            }
+            
+            @item.bodyText
+            break;  // Always break each case      
+      
+       case "article":
+           <h3>@item.articleDate.ToString("MM.dd.yyyy") - @item.Name</h3>  
+            if(@item.articleImage!="")
+            {        
+            <img src="@Model.MediaById(@item.itemImage).umbracoFile" alt="@item.Name" />
+            }
+            @item.bodyText
+            break;
+        
+       case "serviceItem":
+           <h3>@item.Name</h3>          
+            if(@item.featureImage!="")
+            {
+                <img src="@Model.MediaById(@item.itemImage).umbracoFile" alt="@item.Name" />
+            }
+            @item.bodyText
+            break;       
+       
+       default:
+            break;
+    }
+}
+

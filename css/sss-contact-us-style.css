@@ -1,0 +1,167 @@
+
+.contact {
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #5e5e5e;
+    position:relative;
+}
+
+.contact h2{
+    padding-bottom: 10px;
+}
+
+.postal 
+{
+    display:inline-block;
+    width:500px;
+    position:relative;
+    float:left;
+    padding:15px;
+    /*border:1px solid white;*/
+    /*padding: 15px;*/
+}
+
+
+
+.postal .map {
+    width: 350px;
+    height: 250px;
+    line-height: normal;
+    margin-bottom:25px;
+}
+
+.postal .address {
+    font-size: 12px;
+    padding-bottom: 5px;
+    color: #FF8000;
+}
+
+.postal .fieldcontainer { clear: both; } 
+.postal .fieldcontainer .label { float: left; width: 145px; } 
+.postal .fieldcontainer .field { float: left; }
+
+
+.postal .phone {
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+
+
+/*===================================== Contact Form ===========================================*/
+
+.contactus { 
+    display: inline-block;
+    width:500px;
+    position:relative;
+    padding:15px;
+    overflow:hidden;
+    /*border:1px solid white;*/
+}
+
+#contact-info-form label { 
+    display:block;
+    margin:0 0 2.5px 0;
+    }
+
+#contact-info-form label.error { 
+    display:inline-block;
+    margin:0 0 2.5px 2.5px;
+    }
+
+#contact-info-form .text {
+		background-color:rgba(255,255,255,0.15);
+		width: 200px;
+        border:none;
+		font-size:14px;
+		padding:3px;
+		color:#E0E0E0;
+        margin:0 0 10px 0;
+	}
+
+#contact-info-form .styled-select {
+        background: url("/media/1016/down-arrow.png") no-repeat scroll right center / 20px 20px rgba(255, 255, 255, 0.15);
+        background: rgba(255, 255, 255, 0.15);
+        background-image: url("../images/down-arrow.png");
+		background-position:right center;
+		background-size:20px 20px;
+		background-repeat: no-repeat;	    
+		height: 15px;
+        margin: 0 0 5px;
+        overflow: hidden;
+        padding: 0 3px 15px 0;
+        width: 203px;
+    }
+    
+#contact-info-form  .styled-select select{
+        background: transparent;
+        width: 268px;
+        color:#E0E0E0;
+        font-size: 14px;
+        line-height: 1;
+        border: 0;
+        border-radius: 0;
+        height: 34px;
+        -webkit-appearance: none;
+    }
+
+#contact-info-form .styled-select select option { 
+        color: black;
+    }
+
+#contact-info-form textarea{
+    width:570px;
+    height:120px;
+    background-color:rgba(255,255,255,0.15);
+    border:none;
+    color:white;
+    font-size:14px;
+    }
+
+#contact-info-form .submit {
+	background: none repeat scroll 0 0 transparent;
+	border: 1px solid rgba(255, 255, 255, 0.25);
+	border-radius:3px;
+	color: #E0E0E0;
+	/*float: right;*/
+	padding:2px;
+	font-size: 11px;
+	/*margin: 4px 50px 0 0;*/
+    }
+
+
+#contact-info-form .request-form-notification
+{ 
+    background-color: rgba(0, 0, 0, 0.75);
+    border: 3px solid rgba(255, 255, 255, 0.15);
+    height: 355px;
+    left: 15px;
+    position: absolute;
+    width: 510px;
+}
+
+#contact-info-form .request-form-notification .notification-text
+{ 
+    left: 90px;
+    position: absolute;
+    top: 140px;
+}
+
+
+#contact-info-form .fieldgroup label.error {
+    color: #FB3A3A;
+    display: inline-block;
+    margin: 4px 0 5px 125px;
+    padding: 0;
+    text-align: left;
+    width: 220px;
+}
+
+
+
+
+
+
+
+
+/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */

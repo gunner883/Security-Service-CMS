@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <image>
+    <originalFileName>SSS-Main-Logo-2.png</originalFileName>
+    <size>29249</size>
+    <dateLastModified>Mon, 27 May 2013 20:36:51 GMT</dateLastModified>
+    <width>794</width>
+    <height>137</height>
+    <cachedImage>
+      <fileName>qwcez5ux.png</fileName>
+      <dateCreated>Mon, 27 May 2013 20:41:05 GMT</dateCreated>
+      <dateLastAccessed>Mon, 27 May 2013 20:41:22 GMT</dateLastAccessed>
+      <imageFormat>png</imageFormat>
+      <width>462</width>
+      <height>95</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>False</constrain>
+      <pad>False</pad>
+    </cachedImage>
+    <cachedImage>
+      <fileName>0hlmyjpv.png</fileName>
+      <dateCreated>Mon, 27 May 2013 20:41:29 GMT</dateCreated>
+      <dateLastAccessed>Mon, 27 May 2013 20:48:01 GMT</dateLastAccessed>
+      <imageFormat>png</imageFormat>
+      <width>462</width>
+      <height>80</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>False</constrain>
+      <pad>False</pad>
+    </cachedImage>
+  </image>
+</imageIndex>

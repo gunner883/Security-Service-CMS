@@ -1,0 +1,46 @@
+﻿@using Examine
+@using Examine.SearchCriteria
+@using System.Web.Script.Serialization
+
+@{
+    //Get the domain (http://localhost:6436)
+    var siteURL = "http://" + Request.Url.Authority;
+    
+    //Get the values posted from the form
+    var searchTerm = Request["term"];
+
+    //Check if searchTerm is null from the posted form data...
+    if (String.IsNullOrEmpty(searchTerm))
+    {
+        //Stop all other code running in this Macro
+        return;
+    }
+
+    var searcher = ExamineManager.Instance.SearchProviderCollection["RazorSiteSearcher"];
+    var searchCriteria = searcher.CreateSearchCriteria(BooleanOperation.Or);
+    var query = searchCriteria.GroupedOr(new string[] { "nodeName", "bodyText" }, searchTerm).Compile();
+    var searchResults = searcher.Search(query);
+    
+    /*
+    EXAMPLE JSON
+    [{ "id": "http://localhost/about.aspx", "label": "About", "value": "About" }]
+    */
+
+    List<dynamic> searchResultKeyVals = new List<dynamic>();
+    
+    //Convert the search results as JSON
+    foreach(var result in searchResults)
+    {
+        searchResultKeyVals.Add(new {
+            id = siteURL + umbraco.library.NiceUrl(result.Id), 
+            label = result.Fields["nodeName"],
+            value = result.Fields["nodeName"]
+        });
+    }
+    
+    JavaScriptSerializer serializer = new JavaScriptSerializer();
+    var JSONResults = serializer.Serialize(searchResultKeyVals);    
+}
+
+@* Ouput the JSON *@
+@Html.Raw(JSONResults)

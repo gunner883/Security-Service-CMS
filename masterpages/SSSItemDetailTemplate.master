@@ -1,0 +1,8 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/SSSContentBaseTemplate.master" AutoEventWireup="true" %>
+
+<asp:content ContentPlaceHolderId="content" runat="server">
+	<cd:CssInclude runat="server" id="detailCSS" FilePath="~/css/sss-item-detail-style.css" Priority="3" />	
+	<div class="overview">
+        <umbraco:Macro Alias="sc-render-item-detail" runat="server" />
+    </div>
+</asp:content>

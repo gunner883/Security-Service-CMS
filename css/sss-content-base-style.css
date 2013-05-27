@@ -1,0 +1,41 @@
+html {
+    /*font-family: 'Istok Web', sans-serif;*/
+	color:white;	
+	background:url('/media/1009/SSS-Background-Shield-GS-1240.png') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; }
+
+.header-navigation{
+    display: inline-block;
+    float: right;
+    font-size: 20px;
+    font-variant: small-caps;
+}
+
+.header-nav-item{
+	display:inline-block;
+	margin:0 15px 0 0;}
+
+.free-consultation { display: none; }
+
+
+.center-shaded-box
+{
+	background-color: rgba(0,0,0,.5);
+    /*height: 450px;*/
+    min-height:450px;
+    position:relative;
+
+}
+
+
+
+
+
+
+
+
+
+/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */

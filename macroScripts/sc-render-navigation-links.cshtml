@@ -1,0 +1,40 @@
+﻿@inherits umbraco.MacroEngines.DynamicNodeContext
+
+@*
+	Macro to display child pages below the root page of a standard website.
+	Also highlights the current active page/section in the navigation with
+	the css class "current". 
+*@
+
+
+@{ 
+	@*Get the root of the website *@
+    var root = Model.AncestorOrSelf(1);
+
+    var ulClass = String.IsNullOrEmpty(Parameter.ulClass) ? "" : Parameter.ulClass;
+    var listItemClass = String.IsNullOrEmpty(Parameter.listItemClass) ? "" : Parameter.listItemClass;
+    var displayName = "";   
+    
+}
+
+<ul class="@ulClass">
+    @foreach (var page in root.Children.Where("Visible"))
+    {
+        //set the url to the page
+        displayName = page.Name;
+        
+        <li class="@listItemClass @page.IsAncestorOrSelf(Model, "current", "")">
+
+            @{
+               //check to see if anyone has overridden the default page name
+                if(page.Menu!="")
+                {
+                    displayName = page.Menu;
+                }
+            }
+
+            <a href="@page.Url">@displayName</a>
+            
+        </li>
+	}
+</ul>

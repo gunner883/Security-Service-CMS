@@ -1,0 +1,128 @@
+﻿@using System;
+@using System.Linq;
+@using System.Net.Mail;
+@using umbraco.MacroEngines;
+
+@inherits umbraco.MacroEngines.DynamicNodeContext
+@{
+    var formName = String.IsNullOrEmpty(Parameter.formName) ? "" : Parameter.formName;
+    var stringNotificationMessage = "";
+
+    if (String.IsNullOrEmpty(formName))
+    {
+        formName = "request-info-form";
+    }
+    
+    var submitButtonName = formName + "-submit";
+    
+
+    if (IsPost) { 
+    
+        var submitValue = Request[submitButtonName];
+        if(submitValue!=null)
+        {        
+            //parameters
+            var emailTo = String.IsNullOrEmpty(Parameter.emailToAddress) ? "" : Parameter.emailToAddress;
+            var emailSubject = String.IsNullOrEmpty(Parameter.emailSubject) ? "" : Parameter.emailSubject;
+            var bodyText = "";
+       
+            string name = Request["name"]; 
+            string email = Request["email"];
+            string inquiryItem = Request["inquiryType"];
+            string message = Request["message"];
+    
+            //add the inqiury type to the subject line
+            var inquiryItemString = String.IsNullOrEmpty(inquiryItem) ? "" : "-" + inquiryItem;
+            var subjectMsg = emailSubject + inquiryItemString;
+    
+            //if message is filled in, use that instead of the canned response
+            if(message == "")
+            {
+                switch(inquiryItem)
+                {
+                    case "General Inquiry":
+                        bodyText = String.Format("<br/><table><tr><td>Hi Guys,</td><tr><tr><td><p>I'd like some general information about the company.</p></td><tr><tr><td>Regards,</td><tr><tr><td>{0}</td><tr></table>",name);
+                        break;
+                    case "Attorney Services":
+                        bodyText = String.Format("<br/><table><tr><td>Hi Guys,</td><tr><tr><td><p>I'd like some information on your Attorney Services.</p></td><tr><tr><td>Regards,</td><tr><tr><td>{0}</td><tr></table>",name);
+                        break;  
+                    case "Security Personnel":
+                        bodyText = String.Format("<br/><table><tr><td>Hi Guys,</td><tr><tr><td><p>I'd like some information on your Security Personnel Services.</p></td><tr><tr><td>Regards,</td><tr><tr><td>{0}</td><tr></table>",name);
+                        break;
+                    default:
+                        bodyText = String.Format("<br/><table><tr><td>Hi Guys,</td><tr><tr><td><p>I'd like some general information about the company.</p></td><tr><tr><td>Regards,</td><tr><tr><td>{0}</td><tr></table>",name);
+                        break;                        
+                }
+            }
+            else
+            {
+                bodyText = message;
+            }
+
+                try
+                {
+                    MailMessage mail = new MailMessage();
+                    mail.From = new MailAddress(email);
+                    mail.To.Add(emailTo);
+                    mail.Subject = subjectMsg;
+                    mail.IsBodyHtml = true;
+                    mail.Body = bodyText;
+                        
+                    SmtpClient smtp = new SmtpClient();
+            
+                    //smtp.Send(mail);
+                
+                    stringNotificationMessage = "your email has been sent!";
+                    @*<a href="#" class="request-form-notification">your email has been sent!</a>*@
+                
+                }
+                catch(Exception ex)
+                {
+                    stringNotificationMessage = ">> oops! an error has occured <<";
+                    @*<a href="#" class="request-form-notification">>oops! an error has occured</a>*@
+                }                
+
+            }
+        }
+    }
+
+
+<a id="contact-form"></a>
+<div id="@formName-wrapper" class="inputForm">
+    <form method="post" id="@formName" name="@formName" action="#contact-form">
+        @if(stringNotificationMessage!="")
+        {         
+            <a href="#" class="request-form-notification">
+                <div class="notification-text">@stringNotificationMessage</div>
+            </a>
+        }
+        <fieldset> 
+            <div> 
+                <label for="name">Name:</label> 
+                <input type="text" id="@formName-name" name="name" class="text" value="" placeholder="Name"/> 
+            </div> 
+            <div> 
+                <label for="email">Email:</label> 
+                <input type="text" id="@formName-email" name="email" class="text" value="" placeholder="Email"/> 
+            </div> 
+            <div>
+                <label for="inquiryType">Inquiry Type:</label>
+                <div class="styled-select">
+                    <select id="@formName-inquiryType" name="inquiryType" class="select">
+                        <option>General Inquiry</option>
+                        <option>Security Personnel</option>
+                        <option>Attorney Services</option>
+                    </select> 
+                </div>
+            </div> 
+            <div>
+                <label for="message">Message:</label>
+                <textarea id="@formName-message" name="message" cols="30" rows="10"></textarea>
+            </div>
+            <div> 
+                <label> </label> 
+                <input type="submit" name="@formName-submit" value="submit" class="submit" /> 
+            </div> 
+        </fieldset> 
+    </form> 
+</div>

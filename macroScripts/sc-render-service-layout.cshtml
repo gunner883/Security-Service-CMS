@@ -1,0 +1,67 @@
+﻿@using umbraco.MacroEngines;
+@inherits umbraco.MacroEngines.DynamicNodeContext
+
+@helper RenderFeature(DynamicNode node)
+{   //var feature = Library.NodeById(node.Id);
+    
+        <ul >
+        @foreach(var childNode in node.Children)
+        {
+            <li class="service-list-item"><a href="@childNode.Url">@childNode.Name</a></li>   
+        }
+        </ul>
+}    
+   
+@helper RenderItem(DynamicNode node)
+{   
+    foreach (var childNode in node.Children)
+    {
+        string alias = childNode.NodeTypeAlias;
+        switch(alias)
+        {
+            case "contentFolder":
+                <h3>@childNode.Name</h3>
+               
+                //check to see if the node has children, if so render:
+                if(childNode.ChildrenAsList.Count()>0)
+                {
+                   if(childNode.Children.FirstOrDefault().NodeTypeAlias=="feature")
+                   {
+                    @RenderFeature(childNode);
+                    }       
+                }
+
+                @RenderItem(childNode);
+                break;              
+            default:
+                break;
+        }
+    }
+    
+}
+
+
+
+@{             
+    int iCnt = 1;
+    
+    foreach(var node in Model.Children)
+    {
+        
+        <div class="panel @iCnt">
+            <h2>@node.Name</h2>
+            <div class="panel-container">
+                <div class="panel-content">
+                    @RenderItem(node)
+                </div>
+            </div>
+            <a href="#" data-direction="up" class="navigation-button">scroll up</a>
+            <a href="#" data-direction="down" class="navigation-button">scroll down</a>
+        </div>   
+        iCnt++;  
+    }
+    
+}
+
+
+

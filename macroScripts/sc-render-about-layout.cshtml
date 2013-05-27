@@ -1,0 +1,95 @@
+﻿ @inherits umbraco.MacroEngines.DynamicNodeContext
+
+@{
+    int iCnt = 1;
+    var itemLink = "";
+    var target = "";
+
+    foreach (var item in Model.Children.Where("Visible"))
+    {
+        <div class="panel @iCnt">
+                        
+            @if (item.NodeTypeAlias == "dateFolder")
+            {
+                <h2>@item.Name</h2>
+                
+                var articleList = item.DescendantsOrSelf("article");
+
+                foreach (var subitm in articleList)
+                {
+                    <h3><a href="@subitm.Url">@subitm.articleDate.ToString("MM.dd.yyyy")</a></h3>
+
+                    if (@subitm.showTeaserImage)
+                    {
+                        <img src="@Model.MediaById(@subitm.itemImage).umbracoFile" alt="@item.Name" />
+                    }
+                            
+                    @subitm.articleOverview
+                        
+                }
+
+			}
+		
+            @if (item.NodeTypeAlias == "contentFolder")
+            {
+                <h2>@item.Name</h2>
+                
+                var headerCnt = 3; //set this up as a placeholder to increase the folder hierarchy
+                
+                foreach (var subitm in item.Children())
+                {
+                    string alias = subitm.NodeTypeAlias;
+                    
+                    switch (alias)
+                    {
+                        case "contentFolder":
+
+                            Utils.RenderContentFolder(subitm);
+                            
+                            //keep adding a header (increase the nuimber h2, h3, h4, h5)
+                            <h@headerCnt>@item.Name</h@headerCnt>                            
+                            headerCnt++; 
+                            
+                        break;
+                            
+                        case "feature":
+                            
+                            if(@Model.MediaById(subitm.itemImage).umbracoFile!="")
+                            {
+                                <img src="@Model.MediaById(subitm.itemImage).umbracoFile" alt="@subitm.Name" />
+                            }
+                            //set the default item link
+                            itemLink = subitm.Url;
+                        
+                            //now check to see if there is a link specified in the url picker
+                            if (!String.IsNullOrEmpty(subitm.featureLink.Url))
+                            {
+                                //grab the link if it is populated
+                                itemLink = subitm.featurelLink.Url;
+
+                                //now check to see if the user has specified to target a new browser window
+                                if (subitm.featureLink.NewWindow)
+                                {
+                                    target = "_blank";
+                                }
+                            }       
+                                 
+                            <h3><a href="@itemLink" target="@target">@subitm.Name</a></h3>
+                
+                            @subitm.featureOverview
+                            
+                       break;  // Always break each case    
+                       
+                       default:
+                       break;
+                                               
+                    }
+                        
+                }
+
+            }
+
+        </div>
+        iCnt++;
+	}
+}

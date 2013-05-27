@@ -1,0 +1,80 @@
+#request-info-form label { 
+    display: none; 
+    }
+
+#request-info-form textarea { 
+    display: none; 
+
+    }
+
+#request-info-form .text {
+		background-color:rgba(255,255,255,0.15);
+		width: 200px;
+        border:none;
+		font-size:11px;
+		padding:3px;
+		color:#E0E0E0;
+        margin:0 0 3px 0;
+	}
+
+#request-info-form .styled-select {
+        background: rgba(255, 255, 255, 0.15);
+        background-image: url("../images/down-arrow.png");
+		background-position:right center;
+		background-size:20px 20px;
+		background-repeat: no-repeat;
+		height: 15px;
+        margin: 0 0 3px;
+        overflow: hidden;
+        padding: 3px 3px 3px 0;
+        width: 203px;
+    }
+    
+#request-info-form  .styled-select select{
+        background: transparent;
+        width: 268px;
+		margin:0 0 0 3px;
+        color:#E0E0E0;
+        font-size: 11px;
+        line-height: 1;
+        border: 0;
+        border-radius: 0;
+        /*height: 34px;*/
+        -webkit-appearance: none;
+    }
+
+#request-info-form .styled-select select option { 
+        color: black;
+    }
+
+#request-info-form .submit { 
+        background: none;
+        border:none;
+        color:#32a8d0;
+        font-size:11px;
+        float:right;
+        margin:5px 50px 0 0;
+     }
+
+#request-info-form .request-form-notification
+{ 
+    background-color: black;
+    border: 3px solid rgba(255, 255, 255, 0.15);
+    left: 0;
+    padding: 40px;
+    position: absolute;
+}
+
+#request-info-form .fieldgroup label.error {
+    color: #FB3A3A;
+    display: inline-block;
+    margin: 4px 0 5px 125px;
+    padding: 0;
+    text-align: left;
+    width: 220px;
+}
+
+
+
+
+/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */

@@ -1,0 +1,48 @@
+@using umbraco.MacroEngines;
+@inherits umbraco.MacroEngines.DynamicNodeContext
+
+@*
+	Model = The current page the macro is executed on
+			@Model.bodyText
+
+	Parameter = collection of parameter values passed from the macro
+			@Paramter.myParam
+
+    Library = utillity library with common methods
+    		@Library.NodeById(1233)
+*@
+
+
+@{
+		
+	var nodeId = String.IsNullOrEmpty(Parameter.ContentNode)? 0 : int.Parse(Parameter.ContentNode);
+    var listItemClass = String.IsNullOrEmpty(Parameter.listItemClass)? "" : Parameter.listItemClass;
+    var profileLink = "";
+    var target = "";
+	
+    //now get the node associated with the id
+    var nodeList = Library.NodeById(nodeId);
+    	
+        <ul>
+	        @foreach(var item in nodeList.Children)
+            {
+                //check to see if the url has data
+                if(item.profile != null)
+                {
+                    //make sure the user has specified a profile link - if not, make the link blank.
+                    profileLink = item.profile.Url;
+                               
+                    //check to see if the user specifies to open link in new window
+                    if(item.profile.NewWindow)
+                    {
+                        target="_blank";
+                    }          
+                } 
+             
+               <li class="@listItemClass"><a href="@profileLink" target="@target"><img src="@Library.MediaById(@item.mediaImage).UmbracoFile" alt="@item.Name" /></a></li>
+            }
+        </ul>
+        
+}
+
+

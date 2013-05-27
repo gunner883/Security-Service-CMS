@@ -1,0 +1,20 @@
+@inherits umbraco.MacroEngines.DynamicNodeContext
+
+@*
+	Model = The current page the macro is executed on
+			@Model.bodyText
+
+	Parameter = collection of parameter values passed from the macro
+			@Paramter.myParam
+
+    Library = utillity library with common methods
+    		@Library.NodeById(1233)
+*@
+
+
+@{
+    var root = Model.AncestorOrSelf(1);
+    var home = root.homepage.First();
+}
+
+    href="@home.Url"

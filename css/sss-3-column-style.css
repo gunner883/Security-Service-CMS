@@ -1,0 +1,69 @@
+﻿.columns
+{	
+	margin-left:auto;
+	margin-right:auto;
+    overflow:hidden;
+	width:1200px;
+}
+
+.columns .panel 
+{
+    /*height: 425px;*/
+    float: left;
+    display: inline-block;
+    overflow:hidden;
+    margin: 15px;
+    width: 30%;
+    color: #5e5e5e;
+}
+
+.panel-container { height: 360px; width: 343px; overflow: hidden;}
+.floating-div { overflow: auto; height:377px; width:360px;}
+
+.navigation-button { display: inline-block; }
+.navigation-button img { width: 30px; height: 30px; }
+
+.columns .panel h2 
+{
+    font-size: 24px;
+}
+
+.panel img
+{
+    padding: 10px 0 5px 0;
+    width: 275px;
+    height: 180px;
+}
+
+.columns .panel h3 
+{
+    font-size: 14px;
+    color: #FF8000;
+    padding:5px 0 0 0;
+}
+
+.columns .panel h3 a{ color: #FF8000;}
+.columns .panel h3 a:hover{ color: #ffffff;}
+
+
+.columns .panel p {
+
+    font-size: 12px;
+    padding-bottom: 15px;
+}
+
+.service-list-item
+{
+    list-style-type: none; 
+    background:url('/media/1002/list-item-arrow-right.png') no-repeat left 3px;
+	padding:0 0 0 15px; 
+    font-size:12px;
+    margin:0 0 0 25px;
+}
+
+.columns .panel ul a{ color: #5e5e5e;}
+.columns .panel ul a:hover{ color:  #d7d8d6;}
+
+
+
+/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */

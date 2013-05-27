@@ -1,0 +1,302 @@
+/* YUI 3.5.0 reset.css (http://developer.yahoo.com/yui/3/cssreset/) - http://cssreset.com */
+/*html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}ol,ul{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:text-top}sub{vertical-align:text-bottom}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit}input,textarea,select{*font-size:100%}legend{color:#000}#yui3-css-stamp.cssreset{display:none}*/
+
+/*==================================== fonts ========================================*/
+
+/*@import url(http://fonts.googleapis.com/css?family=Orbitron);
+
+@import url(http://fonts.googleapis.com/css?family=Jura);*/
+@import url(http://fonts.googleapis.com/css?family=Michroma);
+@import url(http://fonts.googleapis.com/css?family=Noto+Sans);
+@import url(http://fonts.googleapis.com/css?family=Istok+Web);
+
+/*==================================== reset ========================================*/
+
+* {
+	margin: 0;
+}
+
+a
+{
+	text-decoration:none; 
+	color:#ffffff;
+}
+
+a:link 
+{
+	color:#ffffff; /* unvisited link */
+}      
+
+/*a:visited {color:#FF8000;}  visited link */
+
+a:hover
+{
+	color:#FF8000; /* mouse over link */
+    color:#FF8000;
+}  
+
+/*a:active {color:#FF8000;}  selected link */
+
+a, img
+{
+    border:none;
+}
+
+
+fieldset { 
+    border: none; 
+    margin:0 0 0 -5px;
+}
+
+ul
+{
+	list-style:none;
+    padding:0;
+    margin:0;
+	
+}
+
+.clear { clear:both; }
+
+/*==================================== Globals ========================================*/
+    
+  	html {
+		/*font-family: 'Orbitron', sans-serif;*/
+        font-family: 'Michroma', sans-serif;        
+		color:white;	
+		background:url('/media/1001/black_pattern05.jpg') no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover; }
+
+	html, body{
+		height:100%;
+	}
+
+
+    body .submit { 
+        cursor: pointer; }
+
+	.clear{
+		clear:both;}
+	
+/*==================================== Content ========================================*/
+
+	#wrapper{
+		display:block;
+		width:1240px;
+        margin:0 auto;
+	}
+
+/*==================================== Header ========================================*/
+
+	.header-band{
+		height:100px;
+		background-color:rgba(0,0,0,0.5);
+		margin:0 0 -100px 0;}
+		
+	#header{
+        /*border:1px solid white;*/
+		margin:0 0 0 0;
+		padding:0 0 0 0;
+        overflow:hidden;
+		position:relative;}
+
+	#header-logo{
+		display:inline-block;
+        float:left;
+        width:500px;
+        /*border:1px solid white;*/
+	}
+
+	#nav-bar{
+        width:500px;
+        display:inline-block;
+        float:right;
+		position:relative;
+        /*border:1px solid white;*/
+        overflow:hidden;
+	}
+
+	.logo-image{
+    	margin: 0 0 -12px -10px;
+    	padding: 15px 0 0;}
+
+    .header-navigation{
+        display: inline-block;
+        display:none;
+        float: right;
+        font-size: 20px;
+        font-variant: small-caps;
+    }
+
+	.header-nav-item{
+		display:inline-block;
+		margin:0 15px 0 0;}
+		
+	.free-consultation{
+        display:inline-block;
+		float:right;
+		margin:5px 50px 0 0;
+		color:white;
+		font-size:14px;
+		text-transform:uppercase;}
+		
+	.free-consultation p span{
+		color:red;}
+	
+	.free-consultation .stretch-phone{
+		letter-spacing:7px;
+		font-size:20px}
+
+    #search {
+        display:block;
+    }
+
+    #searchForm { 
+        float: right;
+        margin: 5px 15px 0 0;
+    }
+
+   #searchForm .text {
+		background-color:rgba(0,0,0,0.35);
+		width: 200px;
+        border:1px solid rgba(255, 255, 255, 0.25);
+        border-radius:3px;
+		font-size:11px;
+		padding:3px;
+		color:#E0E0E0;
+        margin:0 3px 3px 0;
+	}
+
+    #searchForm .submit {
+        background: none repeat scroll 0 0 transparent;
+        border: 1px solid rgba(255, 255, 255, 0.25);
+        border-radius:3px;
+        color: #E0E0E0;
+        /*float: right;*/
+        padding:2px;
+        font-size: 11px;
+        margin: 4px 50px 0 0;
+    }
+
+    #searchForm .submit:hover {
+        color: #FF8000;
+    }
+
+
+	/*==================================== Content ========================================*/
+
+	#content{
+		position:relative;
+        min-height:450px;        
+		/*border:1px solid red;*/
+        margin:40px 0 45px 0;
+	}
+	
+	.main-content-logo{
+		position:absolute;
+		width:52%;
+		right:-10px;
+		top:-110px;
+		z-index:-1;}
+	
+	
+	.homepage-navigation{
+        /*font-family: 'Istok Web', sans-serif;*/
+        text-transform:uppercase;
+		position:absolute;
+		top:65px;
+		left:130px;
+		font-size:50px;
+		letter-spacing:-1px;}
+	
+	homepage-nav-item{
+		margin: 0 0 10px 0;}
+
+
+	/*============================= Footer ===============================*/
+
+
+	.footer-band{
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 165px;
+        margin: -18px 0 0;
+        width: 100%;
+	}
+
+	#footer{
+		position:relative;
+		display:block;
+		font-size:11px;
+		width:1140px;
+		margin:0 auto;
+        font-family: 'Noto Sans', sans-serif;
+        /*border:1px solid white;*/
+	}
+
+	#footer a{		
+		color: #9f9f9f;}
+
+	.footer-column{
+		display:inline-block;
+		width:275px;
+		margin:0 10px 0 0;
+        float:left;
+	}
+
+    .footer-column h4 { 
+        margin: 0 0 10px 0; }
+
+    .link-stack-item{
+		background:url('/media/1002/list-item-arrow-right.png') no-repeat top left;
+		margin:0 0 10px 0;
+		padding:0 0 0 15px;}   
+       
+	.footer-address{
+		text-align:right;
+        line-height:14px;
+		margin:0;
+        padding:15px 0 0 0;
+	}
+
+	.social-media-item{
+		display:inline-block;
+		margin:5px 0 0 -3px;
+	}
+
+	.social-media-item img{
+		width:25px;
+		height:25px;
+	}
+
+	.copyright{
+			text-align:center;
+            float:left;
+            width:100%;
+	}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */

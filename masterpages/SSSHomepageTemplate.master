@@ -1,0 +1,14 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/SSSMasterTemplate.master" AutoEventWireup="true" %>
+
+	
+<asp:Content ContentPlaceHolderId="main" runat="server">
+
+	<div id="center-well-left">
+		<umbraco:Macro ulClass="homepage-navigation" listItemClass="homepage-nav-item" Alias="Sc-render-navigation-links" runat="server"></umbraco:Macro>
+	</div>
+	<div id="center-well-right">
+		<img class="main-content-logo" src="/media/1007/SSS-Main-Logo.png" alt="SSS Main Logo">
+	</div>
+	
+</asp:Content>
+	

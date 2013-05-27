@@ -1,0 +1,51 @@
+﻿@using umbraco.MacroEngines;
+@inherits umbraco.MacroEngines.DynamicNodeContext
+
+
+@{ 
+        var nodeId = String.IsNullOrEmpty(Parameter.ContentNode) ? 0 : int.Parse(Parameter.ContentNode);
+        var root = Library.NodeById(nodeId);    
+    
+
+		    <div id="map1" class="map">
+				@root.googleMap 
+			</div>
+            <div class="address">
+		        <div>
+                    @if(!String.IsNullOrEmpty(root.streetAddress1))
+                    { 
+                        @root.streetAddress1<br />
+                    }
+                    @if(!String.IsNullOrEmpty(root.streetAddress2))
+                    { 
+                        @root.streetAddress2<br />
+                    }
+                    @root.city, @root.state @root.zipcode
+
+		        </div>
+            </div>
+            <div class="phone">
+                @if(!String.IsNullOrEmpty(root.primaryPhone))
+                { 
+                    <div class="fieldcontainer">
+                        <div class="label">Primary Phone:</div>
+                        <div class="field">@root.primaryPhone</div>
+                    </div>
+                }
+                @if(!String.IsNullOrEmpty(root.secondaryPhone))
+                { 
+                    <div class="fieldcontainer">
+                        <div class="label">Secondary Phone:</div>
+                        <div class="field">@root.secondaryPhone</div>
+                    </div>
+                }
+				@if(!String.IsNullOrEmpty(root.emailAddress))
+                { 
+                    <div class="fieldcontainer">
+						<div class="label">Email:</div>
+                        <div class="field"><a href="mailto:@root.emailAddress">@root.emailAddress</a></div>
+                    </div>
+                }
+            </div>
+    
+}

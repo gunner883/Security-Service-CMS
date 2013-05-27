@@ -1,0 +1,22 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/SSSContentBaseTemplate.master" AutoEventWireup="true" %>
+
+<asp:content ContentPlaceHolderId="content" runat="server">
+	
+    <cd:CssInclude runat="server" id="contact" FilePath="~/css/sss-contact-us-style.css" Priority="4" />	
+	<cd:JsInclude runat="server" id="googlemapsJS" FilePath="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false" Priority="3" />
+	<cd:JsInclude runat="server" id="googlemapPluginJS" FilePath="~/scripts/jquery.googlemaps.js" Priority="4" />
+    <cd:JsInclude runat="server" id="contactFormJS" FilePath="~/scripts/jquery.request-form-processor.js" Priority="5" />
+
+    <div class="contact">
+        <div class="postal">
+		    <h2>Postal Address</h2>
+	        <umbraco:Macro ContentNode="1089" Alias="sc-render-contact-us-postal-layout" runat="server"></umbraco:Macro>
+        </div>
+        <div class="contactus">
+		    <h2>Contact Us</h2>
+		    <umbraco:Macro EmailToAddress="rocco.lombardo@gmail.com" emailSubject="Security Service Specialists" formName="contact-info-form" Alias="sc-process-email-request" runat="server"></umbraco:Macro>
+	    </div>
+    </div>
+
+
+</asp:content>

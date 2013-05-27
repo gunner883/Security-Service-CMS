@@ -1,0 +1,11 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/SSSContentBaseTemplate.master" AutoEventWireup="true" %>
+
+<asp:content ContentPlaceHolderId="content" runat="server">
+	
+    <cd:CssInclude runat="server" id="searchResultsCSS" FilePath="css/sss-search-results-style.css" Priority="4" />
+
+    <div id="results">
+        <h1>Search Results</h1>
+	    <umbraco:Macro Alias="sc-render-search-results" runat="server" />
+	</div>
+</asp:content>

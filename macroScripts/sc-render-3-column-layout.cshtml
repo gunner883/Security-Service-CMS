@@ -1,0 +1,52 @@
+﻿@using umbraco.MacroEngines;
+@inherits umbraco.MacroEngines.DynamicNodeContext
+
+@helper RenderFeature(DynamicNode node)
+{   var feature = Library.NodeById(node.Id);
+    
+    <li ><a href="@feature.Url">@feature.Name</a></li>   
+   
+}    
+   
+@helper RenderItem(DynamicNode node)
+{   
+    foreach (var childNode in node.Children)
+    {
+        string alias = childNode.NodeTypeAlias;
+        switch(alias)
+        {
+            case "contentFolder":
+                <h3>@childNode.Name</h3>
+                @RenderItem(childNode);
+                break;
+            case "feature":
+                <ul class="service-list-item">
+                    @RenderFeature(childNode)
+                </ul>
+                break;                
+            default:
+                @childNode.NodeTypeAlias  @childNode.Name;
+                break;
+        }
+    }
+    
+}
+
+
+
+@{             
+    int iCnt = 1;
+    
+    foreach(var node in Model.Children)
+    {
+        <div class="panel @iCnt">
+            <h2>@node.Name</h2>
+            @RenderItem(node)
+        </div>
+        iCnt++;  
+    }
+    
+}
+
+
+

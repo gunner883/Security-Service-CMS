@@ -1,0 +1,81 @@
+﻿@using umbraco.MacroEngines;
+@inherits umbraco.MacroEngines.DynamicNodeContext
+
+
+@{     
+    
+    var nodeId = String.IsNullOrEmpty(Parameter.ContentNode) ? 0 : int.Parse(Parameter.ContentNode);
+    var root = Library.NodeById(nodeId);    
+    
+    <h2>@root.Name</h2>
+    
+    foreach(var node in root.Children)
+    {
+        <div class="panel-content">
+            @RenderItem(node)
+        </div>
+    }
+    
+}
+
+@helper RenderItem(DynamicNode node)
+{   
+    string alias = node.NodeTypeAlias;
+    switch(alias)
+    {
+        case "contentFolder":
+            <h3>@node.Name</h3>
+               
+                //check to see if the node has children, if so render:
+                if(node.ChildrenAsList.Count() > 0)
+                {
+                    if(node.Children.FirstOrDefault().NodeTypeAlias == "feature")
+                    {
+                        @RenderFeature(node);
+                    }
+                    else{               
+                        @RenderItem(node.Children.FirstOrDefault());
+                    }
+                }
+            break;              
+        default:
+            break;
+    }
+   
+}
+
+@helper RenderFeature(DynamicNode node)
+{     
+    var features = Library.NodeById(node.Id);
+    
+    foreach(var childNode in features.Children)
+    {
+        var itemLink = "";
+        var target = "";
+
+        if (@Library.MediaById(childNode.itemImage).umbracoFile != "")
+        {
+            <a href="@itemLink" target="@target"><img src="@Library.MediaById(childNode.itemImage).umbracoFile" alt="@childNode.Name" /></a>
+        }
+        //set the default item link
+        itemLink = childNode.Url;
+                        
+        //now check to see if there is a link specified in the url picker
+        if (childNode.featureLink!=null)
+        {
+            //grab the link if it is populated
+            itemLink = childNode.featurelLink.Url;
+
+            //now check to see if the user has specified to target a new browser window
+            if (childNode.featureLink.NewWindow)
+            {
+                target = "_blank";
+            }
+        }       
+   
+        <a href="@itemLink" target="@target"> @childNode.featureOverview</a>
+        
+    } 
+} 
+
+

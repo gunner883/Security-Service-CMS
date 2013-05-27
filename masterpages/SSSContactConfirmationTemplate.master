@@ -1,0 +1,16 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/SSSContentBaseTemplate.master" AutoEventWireup="true" %>
+
+<asp:content ContentPlaceHolderId="content" runat="server">
+	
+	<cd:CssInclude runat="server" id="contact" FilePath="~/css/sss-contact-us-style.css" Priority="4" />
+	
+	<div class="contact">	
+
+        <div class="message">
+			<p class="sent-confirmation"><umbraco:Item field="bodyText" textIfEmpty="Congrats! Message has been Successfully sent!" runat="server" /></p>
+			<a href="/contact-us">Continue</a>
+        </div>
+
+	</div>
+	
+</asp:content>
