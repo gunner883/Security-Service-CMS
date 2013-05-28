@@ -1,0 +1,1326 @@
+2013-05-27 13:37:37,679 [5] INFO  Umbraco.Core.CoreBootManager - [Thread 1] Umbraco application starting
+2013-05-27 13:37:37,741 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2013-05-27 13:37:37,757 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 16ms)
+2013-05-27 13:37:37,960 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 187ms)
+2013-05-27 13:37:38,007 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Models.IMacroPropertyType, found 0 (took 6ms)
+2013-05-27 13:37:38,007 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 5ms)
+2013-05-27 13:37:38,022 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 7ms)
+2013-05-27 13:37:38,038 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 5ms)
+2013-05-27 13:37:38,054 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 6ms)
+2013-05-27 13:37:38,288 [5] INFO  Umbraco.Core.CoreBootManager - [Thread 1] Umbraco application startup complete (took 603ms)
+2013-05-27 13:37:39,226 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 19ms)
+2013-05-27 13:37:39,241 [5] INFO  umbraco.BusinessLogic.Log - [Thread 6] Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Custom | User: 0 | NodeId: -1 | Comment: [UmbracoExamine] Adding examine event handlers for index providers: 4
+2013-05-27 13:37:39,382 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 8ms)
+2013-05-27 13:37:39,663 [5] INFO  umbraco.content - [Thread 6] Loading content from disk cache...
+2013-05-27 13:39:13,338 [5] INFO  umbraco.BusinessLogic.Log - [Thread 8] Log scrubbed.  Removed all items older than 2013-03-28 13:39:13
+2013-05-27 13:39:13,353 [5] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 8] Application shutdown. Reason: ConfigurationChange
+2013-05-27 13:40:43,137 [5] INFO  Umbraco.Core.CoreBootManager - [Thread 1] Umbraco application starting
+2013-05-27 13:40:43,184 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2013-05-27 13:40:43,199 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 15ms)
+2013-05-27 13:40:43,480 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 262ms)
+2013-05-27 13:40:43,527 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Models.IMacroPropertyType, found 0 (took 11ms)
+2013-05-27 13:40:43,558 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 26ms)
+2013-05-27 13:40:43,574 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 8ms)
+2013-05-27 13:40:43,589 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 12ms)
+2013-05-27 13:40:43,605 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 9ms)
+2013-05-27 13:40:43,730 [5] INFO  Umbraco.Core.CoreBootManager - [Thread 1] Umbraco application startup complete (took 578ms)
+2013-05-27 13:40:43,964 [5] INFO  umbraco.BusinessLogic.Log - [Thread 6] Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Custom | User: 0 | NodeId: -1 | Comment: [UmbracoExamine] Adding examine event handlers for index providers: 4
+2013-05-27 13:40:43,980 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 14ms)
+2013-05-27 13:40:44,042 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 7ms)
+2013-05-27 13:40:44,245 [5] INFO  umbraco.content - [Thread 8] Loading content from disk cache...
+2013-05-27 13:41:06,112 [5] INFO  umbraco.BusinessLogic.Log - [Thread 7] Log scrubbed.  Removed all items older than 2013-03-28 13:41:06
+2013-05-27 13:41:06,112 [5] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 7] Application shutdown. Reason: ConfigurationChange
+2013-05-27 13:41:14,040 [15] INFO  Umbraco.Core.CoreBootManager - [Thread 1] Umbraco application starting
+2013-05-27 13:41:14,087 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2013-05-27 13:41:14,102 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 15ms)
+2013-05-27 13:41:14,352 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 236ms)
+2013-05-27 13:41:14,399 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Models.IMacroPropertyType, found 0 (took 8ms)
+2013-05-27 13:41:14,399 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 6ms)
+2013-05-27 13:41:14,414 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 10ms)
+2013-05-27 13:41:14,430 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 6ms)
+2013-05-27 13:41:14,430 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 5ms)
+2013-05-27 13:41:14,570 [15] INFO  Umbraco.Core.CoreBootManager - [Thread 1] Umbraco application startup complete (took 509ms)
+2013-05-27 13:41:14,820 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 11ms)
+2013-05-27 13:41:14,883 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 8ms)
+2013-05-27 13:41:14,945 [15] INFO  umbraco.BusinessLogic.Log - [Thread 8] Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Custom | User: 0 | NodeId: -1 | Comment: [UmbracoExamine] Adding examine event handlers for index providers: 4
+2013-05-27 13:41:15,117 [15] INFO  umbraco.content - [Thread 6] Loading content from disk cache...
+2013-05-27 13:41:37,885 [15] INFO  umbraco.BasePages.BasePage - [Thread 6] User admin (Id: 0) logged in
+2013-05-27 13:41:39,711 [15] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 7ms)
+2013-05-27 13:41:39,852 [15] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of umbraco.interfaces.ITree, found 39 (took 11ms)
+2013-05-27 13:41:47,920 [15] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.interfaces.IDataType, found 77 (took 6ms)
+2013-05-27 13:42:01,761 [15] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 6] Content 'Security Service Specialists' with Id '1077' has been published.
+2013-05-27 13:42:01,980 [15] ERROR umbraco.presentation.nodeFactory.UmbracoSiteMapProvider - [Thread 6] Error adding node 1077 to SiteMapProvider in loadNodes()
+System.InvalidOperationException: Multiple nodes with the same URL '/' were found. XmlSiteMapProvider requires that sitemap nodes have unique URLs.
+   at System.Web.StaticSiteMapProvider.AddNode(SiteMapNode node, SiteMapNode parentNode)
+   at umbraco.presentation.nodeFactory.UmbracoSiteMapProvider.loadNodes(String parentId, SiteMapNode parentNode)
+2013-05-27 13:42:24,014 [15] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content 'Security Service Specialists' with Id '1077' has been published.
+2013-05-27 13:42:28,102 [15] INFO  umbraco.content - [Thread 9] Loading content from database...
+2013-05-27 13:42:38,837 [15] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content 'Security Service Specialists' with Id '1077' has been published.
+2013-05-27 13:42:38,962 [15] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content 'Globals' with Id '1078' has been published.
+2013-05-27 13:42:39,259 [15] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content 'Footer Links' with Id '1090' has been published.
+2013-05-27 13:42:39,493 [15] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content 'About Us' with Id '1091' has been published.
+2013-05-27 13:42:39,742 [15] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content 'Company History' with Id '1092' has been published.
+2013-05-27 13:42:39,976 [15] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content 'Frequently Asked Questions' with Id '1093' has been published.
+2013-05-27 13:42:40,226 [15] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content 'Solutions' with Id '1094' has been published.
+2013-05-27 13:42:40,460 [15] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content 'Professional Services' with Id '1095' has been published.
+2013-05-27 13:42:40,757 [15] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content 'Security Consulting' with Id '1096' has been published.
+2013-05-27 13:42:40,944 [15] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content 'Armed Personnel' with Id '1097' has been published.
+2013-05-27 13:42:41,178 [15] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content 'Attorney Services' with Id '1098' has been published.
+2013-05-27 13:42:41,365 [15] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content 'Address' with Id '1100' has been published.
+2013-05-27 13:42:41,599 [15] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content 'Primary' with Id '1089' has been published.
+2013-05-27 13:42:41,927 [15] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content 'Content' with Id '1200' has been published.
+2013-05-27 13:42:42,192 [15] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content 'Company History' with Id '1201' has been published.
+2013-05-27 13:42:42,395 [15] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content 'Social Media Links' with Id '1081' has been published.
+2013-05-27 13:42:42,660 [15] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content 'Facebook' with Id '1082' has been published.
+2013-05-27 13:42:42,848 [15] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content 'Twitter' with Id '1083' has been published.
+2013-05-27 13:42:43,066 [15] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content 'Linked In' with Id '1084' has been published.
+2013-05-27 13:42:43,238 [15] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content 'Home' with Id '1079' has been published.
+2013-05-27 13:42:43,487 [15] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content 'About' with Id '1145' has been published.
+2013-05-27 13:42:43,846 [15] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content 'Who We Are' with Id '1108' has been published.
+2013-05-27 13:42:44,065 [15] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content 'Professional Security Services' with Id '1114' has been published.
+2013-05-27 13:42:44,267 [15] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content 'Latest News' with Id '1117' has been published.
+2013-05-27 13:42:44,486 [15] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content '2013' with Id '1119' has been published.
+2013-05-27 13:42:44,829 [15] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content '06' with Id '1123' has been published.
+2013-05-27 13:42:45,016 [15] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content 'Lorem Ipsum' with Id '1122' has been published.
+2013-05-27 13:42:45,297 [15] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content '04' with Id '1121' has been published.
+2013-05-27 13:42:45,547 [15] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content 'New website launch' with Id '1118' has been published.
+2013-05-27 13:42:45,781 [15] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content 'Why Us' with Id '1124' has been published.
+2013-05-27 13:42:45,984 [15] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content 'Experience' with Id '1125' has been published.
+2013-05-27 13:42:46,187 [15] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content 'Services' with Id '1174' has been published.
+2013-05-27 13:42:46,561 [15] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content 'People' with Id '1175' has been published.
+2013-05-27 13:42:46,795 [15] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content 'Security Officers' with Id '1181' has been published.
+2013-05-27 13:42:47,170 [15] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content 'Uniformed' with Id '1178' has been published.
+2013-05-27 13:42:47,419 [15] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content 'Plain Clothed' with Id '1179' has been published.
+2013-05-27 13:42:47,763 [15] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content 'Blazer Program' with Id '1180' has been published.
+2013-05-27 13:42:48,028 [15] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content 'Services' with Id '1176' has been published.
+2013-05-27 13:42:48,246 [15] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content 'Patrol Services' with Id '1182' has been published.
+2013-05-27 13:42:48,574 [15] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content 'Sedans' with Id '1183' has been published.
+2013-05-27 13:42:48,855 [15] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content 'Vans' with Id '1184' has been published.
+2013-05-27 13:42:49,120 [15] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content 'Utility Vehicles' with Id '1185' has been published.
+2013-05-27 13:42:49,354 [15] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content 'Experience' with Id '1177' has been published.
+2013-05-27 13:42:49,713 [15] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content 'Who We Are' with Id '1186' has been published.
+2013-05-27 13:42:49,932 [15] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content 'Reliability' with Id '1187' has been published.
+2013-05-27 13:42:50,150 [15] INFO  umbraco.BusinessLogic.Log - [Thread 6] Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Custom | User: 0 | NodeId: -1 | Comment: [UmbracoExamine] (InternalIndexer)Index is being optimized
+2013-05-27 13:42:50,228 [15] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content 'Expertise' with Id '1188' has been published.
+2013-05-27 13:42:50,462 [15] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content 'Contact Us' with Id '1192' has been published.
+2013-05-27 13:42:50,712 [15] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content 'Search' with Id '1207' has been published.
+2013-05-27 13:42:52,022 [15] INFO  umbraco.BusinessLogic.Log - [Thread 8] Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Custom | User: 0 | NodeId: -1 | Comment: [UmbracoExamine] (ExternalIndexer)Index is being optimized
+2013-05-27 13:43:02,680 [15] INFO  Umbraco.Core.PluginManager - [Thread 17] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 4 (took 7ms)
+2013-05-27 13:43:04,146 [15] INFO  Umbraco.Core.PluginManager - [Thread 17] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 15 (took 7ms)
+2013-05-27 13:43:05,410 [15] WARN  umbraco.MacroEngines.DynamicNode - [Thread 17] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 13:43:05,426 [15] WARN  umbraco.MacroEngines.DynamicNode - [Thread 17] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 13:43:05,426 [15] WARN  umbraco.MacroEngines.DynamicNode - [Thread 17] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 13:43:05,426 [15] WARN  umbraco.MacroEngines.DynamicNode - [Thread 17] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 13:43:41,720 [15] INFO  umbraco.BusinessLogic.Log - [Thread 13] Log scrubbed.  Removed all items older than 2013-03-28 13:43:41
+2013-05-27 13:43:41,720 [15] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 13] Application shutdown. Reason: ConfigurationChange
+2013-05-27 13:43:51,410 [7] INFO  Umbraco.Core.CoreBootManager - [Thread 16] Umbraco application starting
+2013-05-27 13:43:51,457 [7] INFO  Umbraco.Core.PluginManager - [Thread 16] Determining hash of code files on disk
+2013-05-27 13:43:51,472 [7] INFO  Umbraco.Core.PluginManager - [Thread 16] Hash determined (took 15ms)
+2013-05-27 13:43:51,722 [7] INFO  Umbraco.Core.PluginManager - [Thread 16] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 235ms)
+2013-05-27 13:43:51,769 [7] INFO  Umbraco.Core.PluginManager - [Thread 16] Completed resolution of types of Umbraco.Core.Models.IMacroPropertyType, found 0 (took 7ms)
+2013-05-27 13:43:51,769 [7] INFO  Umbraco.Core.PluginManager - [Thread 16] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 6ms)
+2013-05-27 13:43:51,785 [7] INFO  Umbraco.Core.PluginManager - [Thread 16] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 6ms)
+2013-05-27 13:43:51,800 [7] INFO  Umbraco.Core.PluginManager - [Thread 16] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 6ms)
+2013-05-27 13:43:51,800 [7] INFO  Umbraco.Core.PluginManager - [Thread 16] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 5ms)
+2013-05-27 13:43:51,925 [7] INFO  Umbraco.Core.CoreBootManager - [Thread 16] Umbraco application startup complete (took 491ms)
+2013-05-27 13:43:52,175 [7] INFO  Umbraco.Core.PluginManager - [Thread 16] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 11ms)
+2013-05-27 13:43:52,237 [7] INFO  Umbraco.Core.PluginManager - [Thread 16] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 7ms)
+2013-05-27 13:43:52,284 [7] INFO  umbraco.BusinessLogic.Log - [Thread 13] Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Custom | User: 0 | NodeId: -1 | Comment: [UmbracoExamine] Adding examine event handlers for index providers: 4
+2013-05-27 13:43:53,751 [7] INFO  umbraco.content - [Thread 8] Loading content from disk cache...
+2013-05-27 13:44:31,621 [7] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of umbraco.interfaces.IDataType, found 77 (took 8ms)
+2013-05-27 13:44:31,668 [7] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of umbraco.interfaces.ITree, found 39 (took 6ms)
+2013-05-27 13:46:10,741 [7] INFO  Umbraco.Core.PluginManager - [Thread 22] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 4 (took 8ms)
+2013-05-27 13:46:11,131 [7] INFO  Umbraco.Core.PluginManager - [Thread 22] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 15 (took 8ms)
+2013-05-27 13:46:11,631 [7] WARN  umbraco.MacroEngines.DynamicNode - [Thread 22] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 13:46:11,646 [7] WARN  umbraco.MacroEngines.DynamicNode - [Thread 22] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 13:46:11,646 [7] WARN  umbraco.MacroEngines.DynamicNode - [Thread 22] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 13:46:11,646 [7] WARN  umbraco.MacroEngines.DynamicNode - [Thread 22] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 13:46:52,090 [7] INFO  Umbraco.Core.PluginManager - [Thread 13] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 6ms)
+2013-05-27 13:47:10,485 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 24] Content 'Security Service Specialists' with Id '1077' has been published.
+2013-05-27 13:47:10,719 [7] ERROR umbraco.presentation.nodeFactory.UmbracoSiteMapProvider - [Thread 24] Error adding node 1077 to SiteMapProvider in loadNodes()
+System.InvalidOperationException: Multiple nodes with the same URL '/' were found. XmlSiteMapProvider requires that sitemap nodes have unique URLs.
+   at System.Web.StaticSiteMapProvider.AddNode(SiteMapNode node, SiteMapNode parentNode)
+   at umbraco.presentation.nodeFactory.UmbracoSiteMapProvider.loadNodes(String parentId, SiteMapNode parentNode)
+2013-05-27 13:47:10,751 [7] ERROR umbraco.presentation.nodeFactory.UmbracoSiteMapProvider - [Thread 24] Error adding node 1079 to SiteMapProvider in loadNodes()
+System.InvalidOperationException: Multiple nodes with the same URL '/' were found. XmlSiteMapProvider requires that sitemap nodes have unique URLs.
+   at System.Web.StaticSiteMapProvider.AddNode(SiteMapNode node, SiteMapNode parentNode)
+   at umbraco.presentation.nodeFactory.UmbracoSiteMapProvider.loadNodes(String parentId, SiteMapNode parentNode)
+2013-05-27 13:47:16,820 [7] INFO  umbraco.content - [Thread 19] Loading content from database...
+2013-05-27 13:47:22,047 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 24] Content 'Security Service Specialists' with Id '1077' has been published.
+2013-05-27 13:47:27,212 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'Security Service Specialists' with Id '1077' has been published.
+2013-05-27 13:47:34,389 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content 'Security Service Specialists' with Id '1077' has been published.
+2013-05-27 13:47:34,701 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content 'Globals' with Id '1078' has been published.
+2013-05-27 13:47:34,966 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content 'Footer Links' with Id '1090' has been published.
+2013-05-27 13:47:35,169 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content 'About Us' with Id '1091' has been published.
+2013-05-27 13:47:35,434 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content 'Company History' with Id '1092' has been published.
+2013-05-27 13:47:35,606 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content 'Frequently Asked Questions' with Id '1093' has been published.
+2013-05-27 13:47:35,840 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content 'Solutions' with Id '1094' has been published.
+2013-05-27 13:47:36,043 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content 'Professional Services' with Id '1095' has been published.
+2013-05-27 13:47:36,355 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content 'Security Consulting' with Id '1096' has been published.
+2013-05-27 13:47:36,558 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content 'Armed Personnel' with Id '1097' has been published.
+2013-05-27 13:47:36,792 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content 'Attorney Services' with Id '1098' has been published.
+2013-05-27 13:47:36,979 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content 'Content' with Id '1200' has been published.
+2013-05-27 13:47:37,151 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content 'Company History' with Id '1201' has been published.
+2013-05-27 13:47:37,354 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content 'Address' with Id '1100' has been published.
+2013-05-27 13:47:37,619 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content 'Primary' with Id '1089' has been published.
+2013-05-27 13:47:37,962 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content 'Social Media Links' with Id '1081' has been published.
+2013-05-27 13:47:38,227 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content 'Facebook' with Id '1082' has been published.
+2013-05-27 13:47:38,415 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content 'Twitter' with Id '1083' has been published.
+2013-05-27 13:47:38,664 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content 'Linked In' with Id '1084' has been published.
+2013-05-27 13:47:38,867 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content 'Home' with Id '1079' has been published.
+2013-05-27 13:47:39,117 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content 'About' with Id '1145' has been published.
+2013-05-27 13:47:39,476 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content 'Who We Are' with Id '1108' has been published.
+2013-05-27 13:47:39,663 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content 'Professional Security Services' with Id '1114' has been published.
+2013-05-27 13:47:39,912 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content 'Latest News' with Id '1117' has been published.
+2013-05-27 13:47:40,115 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content '2013' with Id '1119' has been published.
+2013-05-27 13:47:40,427 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content '06' with Id '1123' has been published.
+2013-05-27 13:47:40,646 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content 'Lorem Ipsum' with Id '1122' has been published.
+2013-05-27 13:47:40,958 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content '04' with Id '1121' has been published.
+2013-05-27 13:47:41,192 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content 'New website launch' with Id '1118' has been published.
+2013-05-27 13:47:41,488 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content 'Why Us' with Id '1124' has been published.
+2013-05-27 13:47:41,754 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content 'Experience' with Id '1125' has been published.
+2013-05-27 13:47:41,988 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content 'Services' with Id '1174' has been published.
+2013-05-27 13:47:42,393 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content 'People' with Id '1175' has been published.
+2013-05-27 13:47:42,596 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content 'Security Officers' with Id '1181' has been published.
+2013-05-27 13:47:42,846 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content 'Uniformed' with Id '1178' has been published.
+2013-05-27 13:47:43,064 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content 'Plain Clothed' with Id '1179' has been published.
+2013-05-27 13:47:43,361 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content 'Blazer Program' with Id '1180' has been published.
+2013-05-27 13:47:43,673 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content 'Services' with Id '1176' has been published.
+2013-05-27 13:47:43,907 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content 'Patrol Services' with Id '1182' has been published.
+2013-05-27 13:47:44,156 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content 'Sedans' with Id '1183' has been published.
+2013-05-27 13:47:44,391 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content 'Vans' with Id '1184' has been published.
+2013-05-27 13:47:44,687 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content 'Utility Vehicles' with Id '1185' has been published.
+2013-05-27 13:47:44,827 [7] INFO  umbraco.BusinessLogic.Log - [Thread 23] Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Custom | User: 0 | NodeId: -1 | Comment: [UmbracoExamine] (InternalIndexer)Index is being optimized
+2013-05-27 13:47:45,030 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content 'Experience' with Id '1177' has been published.
+2013-05-27 13:47:45,374 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content 'Who We Are' with Id '1186' has been published.
+2013-05-27 13:47:45,592 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content 'Reliability' with Id '1187' has been published.
+2013-05-27 13:47:45,888 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content 'Expertise' with Id '1188' has been published.
+2013-05-27 13:47:46,169 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content 'Contact Us' with Id '1192' has been published.
+2013-05-27 13:47:46,684 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content 'Search' with Id '1207' has been published.
+2013-05-27 13:47:47,932 [7] INFO  umbraco.BusinessLogic.Log - [Thread 23] Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Custom | User: 0 | NodeId: -1 | Comment: [UmbracoExamine] (ExternalIndexer)Index is being optimized
+2013-05-27 13:47:54,752 [7] WARN  umbraco.MacroEngines.DynamicNode - [Thread 14] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 13:47:54,752 [7] WARN  umbraco.MacroEngines.DynamicNode - [Thread 14] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 13:47:54,752 [7] WARN  umbraco.MacroEngines.DynamicNode - [Thread 14] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 13:47:54,752 [7] WARN  umbraco.MacroEngines.DynamicNode - [Thread 14] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 13:50:59,926 [7] INFO  Umbraco.Core.PluginManager - [Thread 13] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 8ms)
+2013-05-27 13:50:59,926 [7] INFO  Umbraco.Core.PluginManager - [Thread 13] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 6ms)
+2013-05-27 13:50:59,958 [7] INFO  umbraco.content - [Thread 13] Loading content from database...
+2013-05-27 13:51:00,005 [7] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of umbraco.interfaces.ITree, found 39 (took 0ms)
+2013-05-27 13:51:00,005 [7] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 0ms)
+2013-05-27 13:52:00,338 [7] INFO  umbraco.cms.businesslogic.web.Document - [Thread 24] New document 1219
+2013-05-27 13:52:04,067 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content 'Sitemap' with Id '1219' has been published.
+2013-05-27 13:52:04,191 [7] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 23] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2013-05-27 13:52:04,191 [7] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 23] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2013-05-27 13:52:04,191 [7] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 23] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2013-05-27 13:52:13,895 [7] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 14] An unhandled exception occurred
+System.TypeInitializationException: The type initializer for 'Umbraco.Web.Routing.NotFoundHandlerHelper' threw an exception. ---> System.IO.FileNotFoundException: Could not find file 'C:\Users\RLombardo\Documents\My Web Sites\Security Services CMS\config\404handlers.config'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   at System.Threading.CompressedStack.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at Umbraco.Web.Routing.NotFoundHandlerHelper.InitializeNotFoundHandlers()
+   --- End of inner exception stack trace ---
+   at Umbraco.Web.Routing.NotFoundHandlerHelper.GetLegacyUrlForNotFoundHandlers()
+   at Umbraco.Web.Routing.LookupByNotFoundHandlers.HandlePageNotFound(PublishedContentRequest docRequest)
+   at Umbraco.Web.Routing.LookupByNotFoundHandlers.TrySetDocument(PublishedContentRequest docRequest)
+   at System.Linq.Enumerable.Any[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Umbraco.Web.Routing.PublishedContentRequestBuilder.LookupDocument1()
+   at Umbraco.Web.Routing.PublishedContentRequestBuilder.LookupDocument()
+   at Umbraco.Web.Routing.PublishedContentRequest.ProcessRequest(HttpContextBase httpContext, UmbracoContext umbracoContext, Action`1 onSuccess)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-05-27 13:52:30,059 [7] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 19] An unhandled exception occurred
+System.TypeInitializationException: The type initializer for 'Umbraco.Web.Routing.NotFoundHandlerHelper' threw an exception. ---> System.IO.FileNotFoundException: Could not find file 'C:\Users\RLombardo\Documents\My Web Sites\Security Services CMS\config\404handlers.config'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   at System.Threading.CompressedStack.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at Umbraco.Web.Routing.NotFoundHandlerHelper.InitializeNotFoundHandlers()
+   --- End of inner exception stack trace ---
+   at Umbraco.Web.Routing.NotFoundHandlerHelper.GetLegacyUrlForNotFoundHandlers()
+   at Umbraco.Web.Routing.LookupByNotFoundHandlers.HandlePageNotFound(PublishedContentRequest docRequest)
+   at Umbraco.Web.Routing.LookupByNotFoundHandlers.TrySetDocument(PublishedContentRequest docRequest)
+   at System.Linq.Enumerable.Any[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Umbraco.Web.Routing.PublishedContentRequestBuilder.LookupDocument1()
+   at Umbraco.Web.Routing.PublishedContentRequestBuilder.LookupDocument()
+   at Umbraco.Web.Routing.PublishedContentRequest.ProcessRequest(HttpContextBase httpContext, UmbracoContext umbracoContext, Action`1 onSuccess)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-05-27 13:52:36,892 [7] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 21] An unhandled exception occurred
+System.TypeInitializationException: The type initializer for 'Umbraco.Web.Routing.NotFoundHandlerHelper' threw an exception. ---> System.IO.FileNotFoundException: Could not find file 'C:\Users\RLombardo\Documents\My Web Sites\Security Services CMS\config\404handlers.config'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   at System.Threading.CompressedStack.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at Umbraco.Web.Routing.NotFoundHandlerHelper.InitializeNotFoundHandlers()
+   --- End of inner exception stack trace ---
+   at Umbraco.Web.Routing.NotFoundHandlerHelper.GetLegacyUrlForNotFoundHandlers()
+   at Umbraco.Web.Routing.LookupByNotFoundHandlers.HandlePageNotFound(PublishedContentRequest docRequest)
+   at Umbraco.Web.Routing.LookupByNotFoundHandlers.TrySetDocument(PublishedContentRequest docRequest)
+   at System.Linq.Enumerable.Any[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Umbraco.Web.Routing.PublishedContentRequestBuilder.LookupDocument1()
+   at Umbraco.Web.Routing.PublishedContentRequestBuilder.LookupDocument()
+   at Umbraco.Web.Routing.PublishedContentRequest.ProcessRequest(HttpContextBase httpContext, UmbracoContext umbracoContext, Action`1 onSuccess)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-05-27 13:52:52,838 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content 'Security Service Specialists' with Id '1077' has been published.
+2013-05-27 13:52:52,978 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content 'Globals' with Id '1078' has been published.
+2013-05-27 13:52:53,368 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content 'Footer Links' with Id '1090' has been published.
+2013-05-27 13:52:53,571 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content 'About Us' with Id '1091' has been published.
+2013-05-27 13:52:53,867 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content 'Company History' with Id '1092' has been published.
+2013-05-27 13:52:54,086 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content 'Frequently Asked Questions' with Id '1093' has been published.
+2013-05-27 13:52:54,304 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content 'Solutions' with Id '1094' has been published.
+2013-05-27 13:52:54,445 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content 'Professional Services' with Id '1095' has been published.
+2013-05-27 13:52:54,757 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content 'Security Consulting' with Id '1096' has been published.
+2013-05-27 13:52:55,006 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content 'Armed Personnel' with Id '1097' has been published.
+2013-05-27 13:52:55,240 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content 'Attorney Services' with Id '1098' has been published.
+2013-05-27 13:52:55,412 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content 'Address' with Id '1100' has been published.
+2013-05-27 13:52:55,568 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content 'Primary' with Id '1089' has been published.
+2013-05-27 13:52:55,989 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content 'Content' with Id '1200' has been published.
+2013-05-27 13:52:56,208 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content 'Company History' with Id '1201' has been published.
+2013-05-27 13:52:56,489 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content 'Social Media Links' with Id '1081' has been published.
+2013-05-27 13:52:56,754 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content 'Facebook' with Id '1082' has been published.
+2013-05-27 13:52:56,925 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content 'Twitter' with Id '1083' has been published.
+2013-05-27 13:52:57,144 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content 'Linked In' with Id '1084' has been published.
+2013-05-27 13:52:57,269 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content 'Home' with Id '1079' has been published.
+2013-05-27 13:52:57,565 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content 'About' with Id '1145' has been published.
+2013-05-27 13:52:57,971 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content 'Who We Are' with Id '1108' has been published.
+2013-05-27 13:52:58,127 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content 'Professional Security Services' with Id '1114' has been published.
+2013-05-27 13:52:58,376 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content 'Latest News' with Id '1117' has been published.
+2013-05-27 13:52:58,564 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content '2013' with Id '1119' has been published.
+2013-05-27 13:52:58,766 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content '06' with Id '1123' has been published.
+2013-05-27 13:52:58,985 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content 'Lorem Ipsum' with Id '1122' has been published.
+2013-05-27 13:52:59,234 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content '04' with Id '1121' has been published.
+2013-05-27 13:52:59,484 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content 'New website launch' with Id '1118' has been published.
+2013-05-27 13:52:59,703 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content 'Why Us' with Id '1124' has been published.
+2013-05-27 13:52:59,921 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content 'Experience' with Id '1125' has been published.
+2013-05-27 13:53:00,155 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content 'Services' with Id '1174' has been published.
+2013-05-27 13:53:00,514 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content 'People' with Id '1175' has been published.
+2013-05-27 13:53:00,670 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content 'Security Officers' with Id '1181' has been published.
+2013-05-27 13:53:00,966 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content 'Uniformed' with Id '1178' has been published.
+2013-05-27 13:53:01,200 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content 'Plain Clothed' with Id '1179' has been published.
+2013-05-27 13:53:01,466 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content 'Blazer Program' with Id '1180' has been published.
+2013-05-27 13:53:01,700 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content 'Services' with Id '1176' has been published.
+2013-05-27 13:53:01,887 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content 'Patrol Services' with Id '1182' has been published.
+2013-05-27 13:53:02,230 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content 'Sedans' with Id '1183' has been published.
+2013-05-27 13:53:02,324 [7] INFO  umbraco.BusinessLogic.Log - [Thread 14] Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Custom | User: 0 | NodeId: -1 | Comment: [UmbracoExamine] (InternalIndexer)Index is being optimized
+2013-05-27 13:53:02,542 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content 'Vans' with Id '1184' has been published.
+2013-05-27 13:53:02,807 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content 'Utility Vehicles' with Id '1185' has been published.
+2013-05-27 13:53:03,057 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content 'Experience' with Id '1177' has been published.
+2013-05-27 13:53:03,431 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content 'Who We Are' with Id '1186' has been published.
+2013-05-27 13:53:03,650 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content 'Reliability' with Id '1187' has been published.
+2013-05-27 13:53:03,915 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content 'Expertise' with Id '1188' has been published.
+2013-05-27 13:53:04,134 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content 'Contact Us' with Id '1192' has been published.
+2013-05-27 13:53:04,399 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content 'Sitemap' with Id '1219' has been published.
+2013-05-27 13:53:04,570 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content 'Search' with Id '1207' has been published.
+2013-05-27 13:53:16,522 [7] WARN  umbraco.macro - [Thread 19] Error loading MacroEngine script (file: CultivSearchEngineSitemap.cshtml, Type: ''. Exception: Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 'umbraco.MacroEngines.DynamicNodeList' does not contain a definition for 'Count'
+   at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at ASP._Page_macroScripts_CultivSearchEngineSitemap_cshtml.<>c__DisplayClass26.<ListChildNodes>b__25(TextWriter __razor_helper_writer) in c:\Users\RLombardo\documents\my web sites\security services cms\macroScripts\CultivSearchEngineSitemap.cshtml:line 30
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid2[T0,T1](CallSite site, T0 arg0, T1 arg1)
+   at ASP._Page_macroScripts_CultivSearchEngineSitemap_cshtml.Execute() in c:\Users\RLombardo\documents\my web sites\security services cms\macroScripts\CultivSearchEngineSitemap.cshtml:line 1
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at umbraco.MacroEngines.RazorMacroEngine.ExecuteRazor(MacroModel macro, INode currentPage)
+   at umbraco.MacroEngines.RazorMacroEngine.Execute(MacroModel macro, INode currentPage)
+   at umbraco.macro.loadMacroScript(MacroModel macro)
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-05-27 13:54:18,263 [7] WARN  umbraco.MacroEngines.DynamicNode - [Thread 15] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 13:54:18,263 [7] WARN  umbraco.MacroEngines.DynamicNode - [Thread 15] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 13:54:18,263 [7] WARN  umbraco.MacroEngines.DynamicNode - [Thread 15] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 13:54:18,263 [7] WARN  umbraco.MacroEngines.DynamicNode - [Thread 15] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 13:54:26,033 [7] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 9] An unhandled exception occurred
+System.TypeInitializationException: The type initializer for 'Umbraco.Web.Routing.NotFoundHandlerHelper' threw an exception. ---> System.IO.FileNotFoundException: Could not find file 'C:\Users\RLombardo\Documents\My Web Sites\Security Services CMS\config\404handlers.config'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   at System.Threading.CompressedStack.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at Umbraco.Web.Routing.NotFoundHandlerHelper.InitializeNotFoundHandlers()
+   --- End of inner exception stack trace ---
+   at Umbraco.Web.Routing.NotFoundHandlerHelper.GetLegacyUrlForNotFoundHandlers()
+   at Umbraco.Web.Routing.LookupByNotFoundHandlers.HandlePageNotFound(PublishedContentRequest docRequest)
+   at Umbraco.Web.Routing.LookupByNotFoundHandlers.TrySetDocument(PublishedContentRequest docRequest)
+   at System.Linq.Enumerable.Any[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Umbraco.Web.Routing.PublishedContentRequestBuilder.LookupDocument1()
+   at Umbraco.Web.Routing.PublishedContentRequestBuilder.LookupDocument()
+   at Umbraco.Web.Routing.PublishedContentRequest.ProcessRequest(HttpContextBase httpContext, UmbracoContext umbracoContext, Action`1 onSuccess)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-05-27 13:56:45,552 [7] WARN  umbraco.macro - [Thread 17] Error loading MacroEngine script (file: CultivSearchEngineSitemap.cshtml, Type: ''. Exception: Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 'umbraco.MacroEngines.DynamicNodeList' does not contain a definition for 'Count'
+   at CallSite.Target(Closure , CallSite , Object )
+   at ASP._Page_macroScripts_CultivSearchEngineSitemap_cshtml.<>c__DisplayClass26.<ListChildNodes>b__25(TextWriter __razor_helper_writer) in c:\Users\RLombardo\documents\my web sites\security services cms\macroScripts\CultivSearchEngineSitemap.cshtml:line 30
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at ASP._Page_macroScripts_CultivSearchEngineSitemap_cshtml.Execute() in c:\Users\RLombardo\documents\my web sites\security services cms\macroScripts\CultivSearchEngineSitemap.cshtml:line 1
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at umbraco.MacroEngines.RazorMacroEngine.ExecuteRazor(MacroModel macro, INode currentPage)
+   at umbraco.MacroEngines.RazorMacroEngine.Execute(MacroModel macro, INode currentPage)
+   at umbraco.macro.loadMacroScript(MacroModel macro)
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-05-27 13:57:41,175 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 27] Content 'Sitemap' with Id '1219' has been published.
+2013-05-27 13:57:42,361 [7] INFO  umbraco.BusinessLogic.Log - [Thread 30] Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Custom | User: 0 | NodeId: -1 | Comment: [UmbracoExamine] (ExternalIndexer)Index is being optimized
+2013-05-27 13:58:34,478 [7] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 37] An unhandled exception occurred
+System.TypeInitializationException: The type initializer for 'Umbraco.Web.Routing.NotFoundHandlerHelper' threw an exception. ---> System.IO.FileNotFoundException: Could not find file 'C:\Users\RLombardo\Documents\My Web Sites\Security Services CMS\config\404handlers.config'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   at System.Threading.CompressedStack.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at Umbraco.Web.Routing.NotFoundHandlerHelper.InitializeNotFoundHandlers()
+   --- End of inner exception stack trace ---
+   at Umbraco.Web.Routing.NotFoundHandlerHelper.GetLegacyUrlForNotFoundHandlers()
+   at Umbraco.Web.Routing.LookupByNotFoundHandlers.HandlePageNotFound(PublishedContentRequest docRequest)
+   at Umbraco.Web.Routing.LookupByNotFoundHandlers.TrySetDocument(PublishedContentRequest docRequest)
+   at System.Linq.Enumerable.Any[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Umbraco.Web.Routing.PublishedContentRequestBuilder.LookupDocument1()
+   at Umbraco.Web.Routing.PublishedContentRequestBuilder.LookupDocument()
+   at Umbraco.Web.Routing.PublishedContentRequest.ProcessRequest(HttpContextBase httpContext, UmbracoContext umbracoContext, Action`1 onSuccess)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-05-27 13:58:41,031 [7] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 36] An unhandled exception occurred
+System.TypeInitializationException: The type initializer for 'Umbraco.Web.Routing.NotFoundHandlerHelper' threw an exception. ---> System.IO.FileNotFoundException: Could not find file 'C:\Users\RLombardo\Documents\My Web Sites\Security Services CMS\config\404handlers.config'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   at System.Threading.CompressedStack.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at Umbraco.Web.Routing.NotFoundHandlerHelper.InitializeNotFoundHandlers()
+   --- End of inner exception stack trace ---
+   at Umbraco.Web.Routing.NotFoundHandlerHelper.GetLegacyUrlForNotFoundHandlers()
+   at Umbraco.Web.Routing.LookupByNotFoundHandlers.HandlePageNotFound(PublishedContentRequest docRequest)
+   at Umbraco.Web.Routing.LookupByNotFoundHandlers.TrySetDocument(PublishedContentRequest docRequest)
+   at System.Linq.Enumerable.Any[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Umbraco.Web.Routing.PublishedContentRequestBuilder.LookupDocument1()
+   at Umbraco.Web.Routing.PublishedContentRequestBuilder.LookupDocument()
+   at Umbraco.Web.Routing.PublishedContentRequest.ProcessRequest(HttpContextBase httpContext, UmbracoContext umbracoContext, Action`1 onSuccess)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-05-27 13:58:46,040 [7] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 26] An unhandled exception occurred
+System.TypeInitializationException: The type initializer for 'Umbraco.Web.Routing.NotFoundHandlerHelper' threw an exception. ---> System.IO.FileNotFoundException: Could not find file 'C:\Users\RLombardo\Documents\My Web Sites\Security Services CMS\config\404handlers.config'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   at System.Threading.CompressedStack.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at Umbraco.Web.Routing.NotFoundHandlerHelper.InitializeNotFoundHandlers()
+   --- End of inner exception stack trace ---
+   at Umbraco.Web.Routing.NotFoundHandlerHelper.GetLegacyUrlForNotFoundHandlers()
+   at Umbraco.Web.Routing.LookupByNotFoundHandlers.HandlePageNotFound(PublishedContentRequest docRequest)
+   at Umbraco.Web.Routing.LookupByNotFoundHandlers.TrySetDocument(PublishedContentRequest docRequest)
+   at System.Linq.Enumerable.Any[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Umbraco.Web.Routing.PublishedContentRequestBuilder.LookupDocument1()
+   at Umbraco.Web.Routing.PublishedContentRequestBuilder.LookupDocument()
+   at Umbraco.Web.Routing.PublishedContentRequest.ProcessRequest(HttpContextBase httpContext, UmbracoContext umbracoContext, Action`1 onSuccess)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-05-27 13:58:56,245 [7] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 37] An unhandled exception occurred
+System.TypeInitializationException: The type initializer for 'Umbraco.Web.Routing.NotFoundHandlerHelper' threw an exception. ---> System.IO.FileNotFoundException: Could not find file 'C:\Users\RLombardo\Documents\My Web Sites\Security Services CMS\config\404handlers.config'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   at System.Threading.CompressedStack.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at Umbraco.Web.Routing.NotFoundHandlerHelper.InitializeNotFoundHandlers()
+   --- End of inner exception stack trace ---
+   at Umbraco.Web.Routing.NotFoundHandlerHelper.GetLegacyUrlForNotFoundHandlers()
+   at Umbraco.Web.Routing.LookupByNotFoundHandlers.HandlePageNotFound(PublishedContentRequest docRequest)
+   at Umbraco.Web.Routing.LookupByNotFoundHandlers.TrySetDocument(PublishedContentRequest docRequest)
+   at System.Linq.Enumerable.Any[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Umbraco.Web.Routing.PublishedContentRequestBuilder.LookupDocument1()
+   at Umbraco.Web.Routing.PublishedContentRequestBuilder.LookupDocument()
+   at Umbraco.Web.Routing.PublishedContentRequest.ProcessRequest(HttpContextBase httpContext, UmbracoContext umbracoContext, Action`1 onSuccess)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-05-27 13:59:17,700 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content 'Security Service Specialists' with Id '1077' has been published.
+2013-05-27 13:59:17,871 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content 'Globals' with Id '1078' has been published.
+2013-05-27 13:59:18,230 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content 'Footer Links' with Id '1090' has been published.
+2013-05-27 13:59:18,636 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content 'About Us' with Id '1091' has been published.
+2013-05-27 13:59:19,073 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content 'Company History' with Id '1092' has been published.
+2013-05-27 13:59:19,323 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content 'Frequently Asked Questions' with Id '1093' has been published.
+2013-05-27 13:59:19,619 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content 'Solutions' with Id '1094' has been published.
+2013-05-27 13:59:19,962 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content 'Professional Services' with Id '1095' has been published.
+2013-05-27 13:59:21,273 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content 'Security Consulting' with Id '1096' has been published.
+2013-05-27 13:59:22,116 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content 'Armed Personnel' with Id '1097' has been published.
+2013-05-27 13:59:25,267 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content 'Attorney Services' with Id '1098' has been published.
+2013-05-27 13:59:26,798 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content 'Content' with Id '1200' has been published.
+2013-05-27 13:59:29,481 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content 'Company History' with Id '1201' has been published.
+2013-05-27 13:59:33,164 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content 'Address' with Id '1100' has been published.
+2013-05-27 13:59:34,552 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content 'Primary' with Id '1089' has been published.
+2013-05-27 13:59:39,296 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content 'Social Media Links' with Id '1081' has been published.
+2013-05-27 13:59:40,747 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content 'Facebook' with Id '1082' has been published.
+2013-05-27 13:59:42,479 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content 'Twitter' with Id '1083' has been published.
+2013-05-27 13:59:43,790 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content 'Linked In' with Id '1084' has been published.
+2013-05-27 13:59:45,194 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content 'Home' with Id '1079' has been published.
+2013-05-27 13:59:46,333 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content 'About' with Id '1145' has been published.
+2013-05-27 13:59:48,049 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content 'Who We Are' with Id '1108' has been published.
+2013-05-27 13:59:49,329 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content 'Professional Security Services' with Id '1114' has been published.
+2013-05-27 13:59:50,483 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content 'Latest News' with Id '1117' has been published.
+2013-05-27 13:59:51,310 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content '2013' with Id '1119' has been published.
+2013-05-27 13:59:52,590 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content '06' with Id '1123' has been published.
+2013-05-27 13:59:53,698 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content 'Lorem Ipsum' with Id '1122' has been published.
+2013-05-27 13:59:56,007 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content '04' with Id '1121' has been published.
+2013-05-27 13:59:56,990 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content 'New website launch' with Id '1118' has been published.
+2013-05-27 13:59:58,800 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content 'Why Us' with Id '1124' has been published.
+2013-05-27 13:59:59,955 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content 'Experience' with Id '1125' has been published.
+2013-05-27 14:00:01,437 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content 'Services' with Id '1174' has been published.
+2013-05-27 14:00:02,654 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content 'People' with Id '1175' has been published.
+2013-05-27 14:00:03,231 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content 'Security Officers' with Id '1181' has been published.
+2013-05-27 14:00:04,058 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content 'Uniformed' with Id '1178' has been published.
+2013-05-27 14:00:04,792 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content 'Plain Clothed' with Id '1179' has been published.
+2013-05-27 14:00:06,321 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content 'Blazer Program' with Id '1180' has been published.
+2013-05-27 14:00:07,569 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content 'Services' with Id '1176' has been published.
+2013-05-27 14:00:08,380 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content 'Patrol Services' with Id '1182' has been published.
+2013-05-27 14:00:10,580 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content 'Sedans' with Id '1183' has been published.
+2013-05-27 14:00:12,453 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content 'Vans' with Id '1184' has been published.
+2013-05-27 14:00:14,247 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content 'Utility Vehicles' with Id '1185' has been published.
+2013-05-27 14:00:15,511 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content 'Experience' with Id '1177' has been published.
+2013-05-27 14:00:17,446 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content 'Who We Are' with Id '1186' has been published.
+2013-05-27 14:00:18,897 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content 'Reliability' with Id '1187' has been published.
+2013-05-27 14:00:20,442 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content 'Expertise' with Id '1188' has been published.
+2013-05-27 14:00:21,222 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content 'Contact Us' with Id '1192' has been published.
+2013-05-27 14:00:22,392 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content 'Sitemap' with Id '1219' has been published.
+2013-05-27 14:00:23,016 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content 'Search' with Id '1207' has been published.
+2013-05-27 14:00:30,069 [7] INFO  umbraco.BusinessLogic.Log - [Thread 23] Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Custom | User: 0 | NodeId: -1 | Comment: [UmbracoExamine] (RazorSiteIndexer)Index is being optimized
+2013-05-27 14:00:37,184 [7] WARN  umbraco.MacroEngines.DynamicNode - [Thread 20] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:00:37,184 [7] WARN  umbraco.MacroEngines.DynamicNode - [Thread 20] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:00:37,184 [7] WARN  umbraco.MacroEngines.DynamicNode - [Thread 20] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:00:37,184 [7] WARN  umbraco.MacroEngines.DynamicNode - [Thread 20] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:00:37,231 [7] INFO  umbraco.BusinessLogic.Log - [Thread 17] Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Custom | User: 0 | NodeId: -1 | Comment: [UmbracoExamine] (InternalIndexer)Index is being optimized
+2013-05-27 14:00:42,881 [7] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 23] An unhandled exception occurred
+System.TypeInitializationException: The type initializer for 'Umbraco.Web.Routing.NotFoundHandlerHelper' threw an exception. ---> System.IO.FileNotFoundException: Could not find file 'C:\Users\RLombardo\Documents\My Web Sites\Security Services CMS\config\404handlers.config'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   at System.Threading.CompressedStack.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at Umbraco.Web.Routing.NotFoundHandlerHelper.InitializeNotFoundHandlers()
+   --- End of inner exception stack trace ---
+   at Umbraco.Web.Routing.NotFoundHandlerHelper.GetLegacyUrlForNotFoundHandlers()
+   at Umbraco.Web.Routing.LookupByNotFoundHandlers.HandlePageNotFound(PublishedContentRequest docRequest)
+   at Umbraco.Web.Routing.LookupByNotFoundHandlers.TrySetDocument(PublishedContentRequest docRequest)
+   at System.Linq.Enumerable.Any[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Umbraco.Web.Routing.PublishedContentRequestBuilder.LookupDocument1()
+   at Umbraco.Web.Routing.PublishedContentRequestBuilder.LookupDocument()
+   at Umbraco.Web.Routing.PublishedContentRequest.ProcessRequest(HttpContextBase httpContext, UmbracoContext umbracoContext, Action`1 onSuccess)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-05-27 14:01:29,770 [7] WARN  umbraco.MacroEngines.DynamicNode - [Thread 23] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:01:29,770 [7] WARN  umbraco.MacroEngines.DynamicNode - [Thread 23] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:01:29,770 [7] WARN  umbraco.MacroEngines.DynamicNode - [Thread 23] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:01:29,770 [7] WARN  umbraco.MacroEngines.DynamicNode - [Thread 23] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:01:33,187 [7] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 23] An unhandled exception occurred
+System.TypeInitializationException: The type initializer for 'Umbraco.Web.Routing.NotFoundHandlerHelper' threw an exception. ---> System.IO.FileNotFoundException: Could not find file 'C:\Users\RLombardo\Documents\My Web Sites\Security Services CMS\config\404handlers.config'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   at System.Threading.CompressedStack.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at Umbraco.Web.Routing.NotFoundHandlerHelper.InitializeNotFoundHandlers()
+   --- End of inner exception stack trace ---
+   at Umbraco.Web.Routing.NotFoundHandlerHelper.GetLegacyUrlForNotFoundHandlers()
+   at Umbraco.Web.Routing.LookupByNotFoundHandlers.HandlePageNotFound(PublishedContentRequest docRequest)
+   at Umbraco.Web.Routing.LookupByNotFoundHandlers.TrySetDocument(PublishedContentRequest docRequest)
+   at System.Linq.Enumerable.Any[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Umbraco.Web.Routing.PublishedContentRequestBuilder.LookupDocument1()
+   at Umbraco.Web.Routing.PublishedContentRequestBuilder.LookupDocument()
+   at Umbraco.Web.Routing.PublishedContentRequest.ProcessRequest(HttpContextBase httpContext, UmbracoContext umbracoContext, Action`1 onSuccess)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-05-27 14:02:49,208 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 40] Content 'Security Service Specialists - old' with Id '1077' has been published.
+2013-05-27 14:02:50,098 [7] INFO  umbraco.BusinessLogic.Log - [Thread 39] Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Custom | User: 0 | NodeId: -1 | Comment: [UmbracoExamine] (ExternalIndexer)Index is being optimized
+2013-05-27 14:03:31,010 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 10] Content 'Security Service Specialists' with Id '1077' has been published.
+2013-05-27 14:03:45,771 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 45] Content 'Home' with Id '1079' has been published.
+2013-05-27 14:04:16,370 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 33] Content 'Security Service Specialists' with Id '1077' has been published.
+2013-05-27 14:04:16,557 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 33] Content 'Globals' with Id '1078' has been published.
+2013-05-27 14:04:16,838 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 33] Content 'Footer Links' with Id '1090' has been published.
+2013-05-27 14:04:17,478 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 33] Content 'About Us' with Id '1091' has been published.
+2013-05-27 14:04:18,024 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 33] Content 'Company History' with Id '1092' has been published.
+2013-05-27 14:04:18,804 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 33] Content 'Frequently Asked Questions' with Id '1093' has been published.
+2013-05-27 14:04:19,257 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 33] Content 'Solutions' with Id '1094' has been published.
+2013-05-27 14:04:19,631 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 33] Content 'Professional Services' with Id '1095' has been published.
+2013-05-27 14:04:20,068 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 33] Content 'Security Consulting' with Id '1096' has been published.
+2013-05-27 14:04:20,521 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 33] Content 'Armed Personnel' with Id '1097' has been published.
+2013-05-27 14:04:21,519 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 33] Content 'Attorney Services' with Id '1098' has been published.
+2013-05-27 14:04:22,315 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 33] Content 'Address' with Id '1100' has been published.
+2013-05-27 14:04:23,204 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 33] Content 'Primary' with Id '1089' has been published.
+2013-05-27 14:04:25,670 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 33] Content 'Content' with Id '1200' has been published.
+2013-05-27 14:04:26,294 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 33] Content 'Company History' with Id '1201' has been published.
+2013-05-27 14:04:27,885 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 33] Content 'Social Media Links' with Id '1081' has been published.
+2013-05-27 14:04:28,931 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 33] Content 'Facebook' with Id '1082' has been published.
+2013-05-27 14:04:30,164 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 33] Content 'Twitter' with Id '1083' has been published.
+2013-05-27 14:04:31,193 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 33] Content 'Linked In' with Id '1084' has been published.
+2013-05-27 14:04:32,130 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 33] Content 'Home' with Id '1079' has been published.
+2013-05-27 14:04:33,940 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 33] Content 'About' with Id '1145' has been published.
+2013-05-27 14:04:35,734 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 33] Content 'Who We Are' with Id '1108' has been published.
+2013-05-27 14:04:36,670 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 33] Content 'Professional Security Services' with Id '1114' has been published.
+2013-05-27 14:04:39,463 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 33] Content 'Latest News' with Id '1117' has been published.
+2013-05-27 14:04:39,838 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 33] Content '2013' with Id '1119' has been published.
+2013-05-27 14:04:40,415 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 33] Content '06' with Id '1123' has been published.
+2013-05-27 14:04:40,836 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 33] Content 'Lorem Ipsum' with Id '1122' has been published.
+2013-05-27 14:04:41,601 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 33] Content '04' with Id '1121' has been published.
+2013-05-27 14:04:41,850 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 33] Content 'New website launch' with Id '1118' has been published.
+2013-05-27 14:04:42,537 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 33] Content 'Why Us' with Id '1124' has been published.
+2013-05-27 14:04:42,958 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 33] Content 'Experience' with Id '1125' has been published.
+2013-05-27 14:04:44,348 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 33] Content 'Services' with Id '1174' has been published.
+2013-05-27 14:04:45,503 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 33] Content 'People' with Id '1175' has been published.
+2013-05-27 14:04:46,454 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 33] Content 'Security Officers' with Id '1181' has been published.
+2013-05-27 14:04:47,219 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 33] Content 'Uniformed' with Id '1178' has been published.
+2013-05-27 14:04:48,889 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 33] Content 'Plain Clothed' with Id '1179' has been published.
+2013-05-27 14:04:50,542 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 33] Content 'Blazer Program' with Id '1180' has been published.
+2013-05-27 14:04:52,009 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 33] Content 'Services' with Id '1176' has been published.
+2013-05-27 14:04:52,602 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 33] Content 'Patrol Services' with Id '1182' has been published.
+2013-05-27 14:04:53,039 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 33] Content 'Sedans' with Id '1183' has been published.
+2013-05-27 14:04:53,866 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 33] Content 'Vans' with Id '1184' has been published.
+2013-05-27 14:04:54,911 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 33] Content 'Utility Vehicles' with Id '1185' has been published.
+2013-05-27 14:04:56,581 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 33] Content 'Experience' with Id '1177' has been published.
+2013-05-27 14:04:57,455 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 33] Content 'Who We Are' with Id '1186' has been published.
+2013-05-27 14:04:58,625 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 33] Content 'Reliability' with Id '1187' has been published.
+2013-05-27 14:05:00,248 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 33] Content 'Expertise' with Id '1188' has been published.
+2013-05-27 14:05:01,402 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 33] Content 'Contact Us' with Id '1192' has been published.
+2013-05-27 14:05:02,058 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 33] Content 'Sitemap' with Id '1219' has been published.
+2013-05-27 14:05:02,307 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 33] Content 'Search' with Id '1207' has been published.
+2013-05-27 14:05:08,205 [7] INFO  umbraco.BusinessLogic.Log - [Thread 57] Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Custom | User: 0 | NodeId: -1 | Comment: [UmbracoExamine] (ExternalIndexer)Index is being optimized
+2013-05-27 14:05:14,369 [7] INFO  umbraco.BusinessLogic.Log - [Thread 56] Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Custom | User: 0 | NodeId: -1 | Comment: [UmbracoExamine] (InternalIndexer)Index is being optimized
+2013-05-27 14:06:11,136 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'Security Service Specialists' with Id '1077' has been published.
+2013-05-27 14:06:15,505 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'Globals' with Id '1078' has been published.
+2013-05-27 14:06:16,644 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'Footer Links' with Id '1090' has been published.
+2013-05-27 14:06:18,282 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'About Us' with Id '1091' has been published.
+2013-05-27 14:06:19,577 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'Company History' with Id '1092' has been published.
+2013-05-27 14:06:20,420 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'Frequently Asked Questions' with Id '1093' has been published.
+2013-05-27 14:06:21,309 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'Solutions' with Id '1094' has been published.
+2013-05-27 14:06:21,965 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'Professional Services' with Id '1095' has been published.
+2013-05-27 14:06:22,495 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'Security Consulting' with Id '1096' has been published.
+2013-05-27 14:06:22,776 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'Armed Personnel' with Id '1097' has been published.
+2013-05-27 14:06:23,525 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'Attorney Services' with Id '1098' has been published.
+2013-05-27 14:06:24,071 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'Content' with Id '1200' has been published.
+2013-05-27 14:06:25,054 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'Company History' with Id '1201' has been published.
+2013-05-27 14:06:26,661 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'Address' with Id '1100' has been published.
+2013-05-27 14:06:26,786 [7] INFO  umbraco.BusinessLogic.Log - [Thread 10] Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Error | User: 0 | NodeId: -1 | Comment: [UmbracoExamine] (InternalIndexer)Error indexing queue items,The handle is invalid.
+, IndexSet: InternalIndexSet
+2013-05-27 14:06:27,067 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'Primary' with Id '1089' has been published.
+2013-05-27 14:06:27,504 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'Social Media Links' with Id '1081' has been published.
+2013-05-27 14:06:27,878 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'Facebook' with Id '1082' has been published.
+2013-05-27 14:06:28,144 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'Twitter' with Id '1083' has been published.
+2013-05-27 14:06:28,440 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'Linked In' with Id '1084' has been published.
+2013-05-27 14:06:28,658 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'Home' with Id '1079' has been published.
+2013-05-27 14:06:28,877 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'About' with Id '1145' has been published.
+2013-05-27 14:06:29,392 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'Who We Are' with Id '1108' has been published.
+2013-05-27 14:06:29,610 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'Professional Security Services' with Id '1114' has been published.
+2013-05-27 14:06:29,922 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'Latest News' with Id '1117' has been published.
+2013-05-27 14:06:30,110 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content '2013' with Id '1119' has been published.
+2013-05-27 14:06:30,328 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content '06' with Id '1123' has been published.
+2013-05-27 14:06:30,609 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'Lorem Ipsum' with Id '1122' has been published.
+2013-05-27 14:06:30,859 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content '04' with Id '1121' has been published.
+2013-05-27 14:06:31,124 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'New website launch' with Id '1118' has been published.
+2013-05-27 14:06:31,327 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'Why Us' with Id '1124' has been published.
+2013-05-27 14:06:31,545 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'Experience' with Id '1125' has been published.
+2013-05-27 14:06:31,795 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'Services' with Id '1174' has been published.
+2013-05-27 14:06:32,216 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'People' with Id '1175' has been published.
+2013-05-27 14:06:32,434 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'Security Officers' with Id '1181' has been published.
+2013-05-27 14:06:32,887 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'Uniformed' with Id '1178' has been published.
+2013-05-27 14:06:33,277 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'Plain Clothed' with Id '1179' has been published.
+2013-05-27 14:06:33,589 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'Blazer Program' with Id '1180' has been published.
+2013-05-27 14:06:33,839 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'Services' with Id '1176' has been published.
+2013-05-27 14:06:34,057 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'Patrol Services' with Id '1182' has been published.
+2013-05-27 14:06:34,354 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'Sedans' with Id '1183' has been published.
+2013-05-27 14:06:34,556 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'Vans' with Id '1184' has been published.
+2013-05-27 14:06:34,853 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'Utility Vehicles' with Id '1185' has been published.
+2013-05-27 14:06:35,134 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'Experience' with Id '1177' has been published.
+2013-05-27 14:06:35,493 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'Who We Are' with Id '1186' has been published.
+2013-05-27 14:06:35,680 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'Reliability' with Id '1187' has been published.
+2013-05-27 14:06:36,008 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'Expertise' with Id '1188' has been published.
+2013-05-27 14:06:36,242 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'Contact Us' with Id '1192' has been published.
+2013-05-27 14:06:36,507 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'Sitemap' with Id '1219' has been published.
+2013-05-27 14:06:36,694 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'Search' with Id '1207' has been published.
+2013-05-27 14:06:44,808 [7] INFO  umbraco.content - [Thread 49] Loading content from database...
+2013-05-27 14:06:49,660 [7] WARN  umbraco.MacroEngines.DynamicNode - [Thread 57] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:06:49,660 [7] WARN  umbraco.MacroEngines.DynamicNode - [Thread 57] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:06:49,660 [7] WARN  umbraco.MacroEngines.DynamicNode - [Thread 57] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:06:49,660 [7] WARN  umbraco.MacroEngines.DynamicNode - [Thread 57] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:08:14,826 [7] INFO  umbraco.BusinessLogic.Log - [Thread 51] Log scrubbed.  Removed all items older than 2013-03-28 14:08:14
+2013-05-27 14:08:14,826 [7] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 51] Application shutdown. Reason: ConfigurationChange
+2013-05-27 14:08:18,664 [54] INFO  Umbraco.Core.CoreBootManager - [Thread 52] Umbraco application starting
+2013-05-27 14:08:18,742 [54] INFO  Umbraco.Core.PluginManager - [Thread 52] Determining hash of code files on disk
+2013-05-27 14:08:18,758 [54] INFO  Umbraco.Core.PluginManager - [Thread 52] Hash determined (took 14ms)
+2013-05-27 14:08:19,226 [54] INFO  Umbraco.Core.PluginManager - [Thread 52] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 450ms)
+2013-05-27 14:08:19,257 [54] INFO  Umbraco.Core.PluginManager - [Thread 52] Completed resolution of types of Umbraco.Core.Models.IMacroPropertyType, found 0 (took 7ms)
+2013-05-27 14:08:19,273 [54] INFO  Umbraco.Core.PluginManager - [Thread 52] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 9ms)
+2013-05-27 14:08:19,273 [54] INFO  Umbraco.Core.PluginManager - [Thread 52] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 6ms)
+2013-05-27 14:08:19,288 [54] INFO  Umbraco.Core.PluginManager - [Thread 52] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 6ms)
+2013-05-27 14:08:19,304 [54] INFO  Umbraco.Core.PluginManager - [Thread 52] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 6ms)
+2013-05-27 14:08:19,460 [54] INFO  Umbraco.Core.CoreBootManager - [Thread 52] Umbraco application startup complete (took 776ms)
+2013-05-27 14:08:19,803 [54] INFO  umbraco.BusinessLogic.Log - [Thread 51] Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Custom | User: 0 | NodeId: -1 | Comment: [UmbracoExamine] Adding examine event handlers for index providers: 4
+2013-05-27 14:08:19,819 [54] INFO  Umbraco.Core.PluginManager - [Thread 52] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 22ms)
+2013-05-27 14:08:19,897 [54] INFO  Umbraco.Core.PluginManager - [Thread 52] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 7ms)
+2013-05-27 14:08:20,193 [54] INFO  umbraco.content - [Thread 51] Loading content from disk cache...
+2013-05-27 14:08:20,661 [54] INFO  Umbraco.Core.PluginManager - [Thread 51] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 4 (took 6ms)
+2013-05-27 14:08:21,613 [54] INFO  Umbraco.Core.PluginManager - [Thread 51] Completed resolution of types of umbraco.interfaces.IDataType, found 77 (took 5ms)
+2013-05-27 14:08:21,644 [54] INFO  Umbraco.Core.PluginManager - [Thread 51] Completed resolution of types of umbraco.interfaces.ITree, found 39 (took 5ms)
+2013-05-27 14:08:21,722 [54] INFO  Umbraco.Core.PluginManager - [Thread 51] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 15 (took 8ms)
+2013-05-27 14:08:22,269 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 51] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:08:22,284 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 51] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:08:22,284 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 51] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:08:22,284 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 51] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:10:38,426 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 55] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:10:38,426 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 55] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:10:38,426 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 55] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:10:38,426 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 55] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:14:05,502 [54] INFO  umbraco.BusinessLogic.Log - [Thread 5] Log scrubbed.  Removed all items older than 2013-03-28 14:14:05
+2013-05-27 14:14:05,502 [54] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 5] Application shutdown. Reason: ConfigurationChange
+2013-05-27 14:14:12,383 [25] INFO  Umbraco.Core.CoreBootManager - [Thread 58] Umbraco application starting
+2013-05-27 14:14:12,508 [25] INFO  Umbraco.Core.PluginManager - [Thread 58] Determining hash of code files on disk
+2013-05-27 14:14:12,524 [25] INFO  Umbraco.Core.PluginManager - [Thread 58] Hash determined (took 14ms)
+2013-05-27 14:14:12,789 [25] INFO  Umbraco.Core.PluginManager - [Thread 58] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 238ms)
+2013-05-27 14:14:12,820 [25] INFO  Umbraco.Core.PluginManager - [Thread 58] Completed resolution of types of Umbraco.Core.Models.IMacroPropertyType, found 0 (took 6ms)
+2013-05-27 14:14:12,836 [25] INFO  Umbraco.Core.PluginManager - [Thread 58] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 6ms)
+2013-05-27 14:14:12,836 [25] INFO  Umbraco.Core.PluginManager - [Thread 58] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 7ms)
+2013-05-27 14:14:12,852 [25] INFO  Umbraco.Core.PluginManager - [Thread 58] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 5ms)
+2013-05-27 14:14:12,852 [25] INFO  Umbraco.Core.PluginManager - [Thread 58] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 5ms)
+2013-05-27 14:14:12,976 [25] INFO  Umbraco.Core.CoreBootManager - [Thread 58] Umbraco application startup complete (took 568ms)
+2013-05-27 14:14:13,226 [25] INFO  umbraco.BusinessLogic.Log - [Thread 48] Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Custom | User: 0 | NodeId: -1 | Comment: [UmbracoExamine] Adding examine event handlers for index providers: 4
+2013-05-27 14:14:13,226 [25] INFO  Umbraco.Core.PluginManager - [Thread 58] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 13ms)
+2013-05-27 14:14:13,288 [25] INFO  Umbraco.Core.PluginManager - [Thread 58] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 6ms)
+2013-05-27 14:14:13,725 [25] INFO  umbraco.BusinessLogic.Log - [Thread 63] Log scrubbed.  Removed all items older than 2013-03-28 14:14:13
+2013-05-27 14:14:13,741 [25] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 63] Application shutdown. Reason: ConfigurationChange
+2013-05-27 14:14:22,338 [56] INFO  Umbraco.Core.CoreBootManager - [Thread 58] Umbraco application starting
+2013-05-27 14:14:22,385 [56] INFO  Umbraco.Core.PluginManager - [Thread 58] Determining hash of code files on disk
+2013-05-27 14:14:22,401 [56] INFO  Umbraco.Core.PluginManager - [Thread 58] Hash determined (took 11ms)
+2013-05-27 14:14:22,635 [56] INFO  Umbraco.Core.PluginManager - [Thread 58] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 226ms)
+2013-05-27 14:14:22,666 [56] INFO  Umbraco.Core.PluginManager - [Thread 58] Completed resolution of types of Umbraco.Core.Models.IMacroPropertyType, found 0 (took 6ms)
+2013-05-27 14:14:22,682 [56] INFO  Umbraco.Core.PluginManager - [Thread 58] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 5ms)
+2013-05-27 14:14:22,682 [56] INFO  Umbraco.Core.PluginManager - [Thread 58] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 6ms)
+2013-05-27 14:14:22,697 [56] INFO  Umbraco.Core.PluginManager - [Thread 58] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 5ms)
+2013-05-27 14:14:22,697 [56] INFO  Umbraco.Core.PluginManager - [Thread 58] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 6ms)
+2013-05-27 14:14:22,822 [56] INFO  Umbraco.Core.CoreBootManager - [Thread 58] Umbraco application startup complete (took 469ms)
+2013-05-27 14:14:23,056 [56] INFO  umbraco.BusinessLogic.Log - [Thread 5] Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Custom | User: 0 | NodeId: -1 | Comment: [UmbracoExamine] Adding examine event handlers for index providers: 4
+2013-05-27 14:14:23,056 [56] INFO  Umbraco.Core.PluginManager - [Thread 58] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 13ms)
+2013-05-27 14:14:23,119 [56] INFO  Umbraco.Core.PluginManager - [Thread 58] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 6ms)
+2013-05-27 14:14:28,252 [56] INFO  umbraco.BusinessLogic.Log - [Thread 64] Log scrubbed.  Removed all items older than 2013-03-28 14:14:28
+2013-05-27 14:14:28,252 [56] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 64] Application shutdown. Reason: HostingEnvironment
+2013-05-27 14:14:32,980 [5] INFO  Umbraco.Core.CoreBootManager - [Thread 1] Umbraco application starting
+2013-05-27 14:14:33,042 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2013-05-27 14:14:33,058 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 11ms)
+2013-05-27 14:14:33,510 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 435ms)
+2013-05-27 14:14:33,557 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Models.IMacroPropertyType, found 0 (took 6ms)
+2013-05-27 14:14:33,557 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 5ms)
+2013-05-27 14:14:33,573 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 5ms)
+2013-05-27 14:14:33,588 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 5ms)
+2013-05-27 14:14:33,588 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 5ms)
+2013-05-27 14:14:33,760 [5] INFO  Umbraco.Core.CoreBootManager - [Thread 1] Umbraco application startup complete (took 766ms)
+2013-05-27 14:14:34,571 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 23ms)
+2013-05-27 14:14:34,587 [5] INFO  umbraco.BusinessLogic.Log - [Thread 6] Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Custom | User: 0 | NodeId: -1 | Comment: [UmbracoExamine] Adding examine event handlers for index providers: 4
+2013-05-27 14:14:34,696 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 7ms)
+2013-05-27 14:14:40,345 [5] INFO  umbraco.content - [Thread 7] Loading content from disk cache...
+2013-05-27 14:14:40,828 [5] INFO  Umbraco.Core.PluginManager - [Thread 7] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 4 (took 5ms)
+2013-05-27 14:14:41,843 [5] INFO  Umbraco.Core.PluginManager - [Thread 7] Completed resolution of types of umbraco.interfaces.IDataType, found 77 (took 6ms)
+2013-05-27 14:14:41,874 [5] INFO  Umbraco.Core.PluginManager - [Thread 7] Completed resolution of types of umbraco.interfaces.ITree, found 39 (took 5ms)
+2013-05-27 14:14:41,952 [5] INFO  Umbraco.Core.PluginManager - [Thread 7] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 15 (took 6ms)
+2013-05-27 14:14:42,482 [5] WARN  umbraco.MacroEngines.DynamicNode - [Thread 7] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:14:42,498 [5] WARN  umbraco.MacroEngines.DynamicNode - [Thread 7] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:14:42,498 [5] WARN  umbraco.MacroEngines.DynamicNode - [Thread 7] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:14:42,498 [5] WARN  umbraco.MacroEngines.DynamicNode - [Thread 7] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:15:48,548 [5] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 6ms)
+2013-05-27 14:15:49,048 [5] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 10] Content 'Security Service Specialists' with Id '1077' has been published.
+2013-05-27 14:15:49,219 [5] ERROR umbraco.presentation.nodeFactory.UmbracoSiteMapProvider - [Thread 10] Error adding node 1077 to SiteMapProvider in loadNodes()
+System.InvalidOperationException: Multiple nodes with the same URL '/' were found. XmlSiteMapProvider requires that sitemap nodes have unique URLs.
+   at System.Web.StaticSiteMapProvider.AddNode(SiteMapNode node, SiteMapNode parentNode)
+   at umbraco.presentation.nodeFactory.UmbracoSiteMapProvider.loadNodes(String parentId, SiteMapNode parentNode)
+2013-05-27 14:16:36,842 [5] WARN  umbraco.MacroEngines.DynamicNode - [Thread 15] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:16:36,842 [5] WARN  umbraco.MacroEngines.DynamicNode - [Thread 15] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:16:36,842 [5] WARN  umbraco.MacroEngines.DynamicNode - [Thread 15] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:16:36,842 [5] WARN  umbraco.MacroEngines.DynamicNode - [Thread 15] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:17:38,477 [5] INFO  umbraco.content - [Thread 19] Loading content from database...
+2013-05-27 14:17:44,406 [5] WARN  umbraco.MacroEngines.DynamicNode - [Thread 10] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:17:44,406 [5] WARN  umbraco.MacroEngines.DynamicNode - [Thread 10] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:17:44,406 [5] WARN  umbraco.MacroEngines.DynamicNode - [Thread 10] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:17:44,406 [5] WARN  umbraco.MacroEngines.DynamicNode - [Thread 10] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:17:50,257 [5] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 23] An unhandled exception occurred
+System.TypeInitializationException: The type initializer for 'Umbraco.Web.Routing.NotFoundHandlerHelper' threw an exception. ---> System.IO.FileNotFoundException: Could not find file 'C:\Users\RLombardo\Documents\My Web Sites\Security Services CMS\config\404handlers.config'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   at System.Threading.CompressedStack.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at Umbraco.Web.Routing.NotFoundHandlerHelper.InitializeNotFoundHandlers()
+   --- End of inner exception stack trace ---
+   at Umbraco.Web.Routing.NotFoundHandlerHelper.GetLegacyUrlForNotFoundHandlers()
+   at Umbraco.Web.Routing.LookupByNotFoundHandlers.HandlePageNotFound(PublishedContentRequest docRequest)
+   at Umbraco.Web.Routing.LookupByNotFoundHandlers.TrySetDocument(PublishedContentRequest docRequest)
+   at System.Linq.Enumerable.Any[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Umbraco.Web.Routing.PublishedContentRequestBuilder.LookupDocument1()
+   at Umbraco.Web.Routing.PublishedContentRequestBuilder.LookupDocument()
+   at Umbraco.Web.Routing.PublishedContentRequest.ProcessRequest(HttpContextBase httpContext, UmbracoContext umbracoContext, Action`1 onSuccess)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-05-27 14:20:48,561 [5] INFO  umbraco.BusinessLogic.Log - [Thread 9] Log scrubbed.  Removed all items older than 2013-03-28 14:20:48
+2013-05-27 14:20:48,561 [5] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 9] Application shutdown. Reason: ConfigurationChange
+2013-05-27 14:21:32,188 [26] INFO  Umbraco.Core.CoreBootManager - [Thread 13] Umbraco application starting
+2013-05-27 14:21:32,235 [26] INFO  Umbraco.Core.PluginManager - [Thread 13] Determining hash of code files on disk
+2013-05-27 14:21:32,266 [26] INFO  Umbraco.Core.PluginManager - [Thread 13] Hash determined (took 16ms)
+2013-05-27 14:21:32,562 [26] INFO  Umbraco.Core.PluginManager - [Thread 13] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 288ms)
+2013-05-27 14:21:32,609 [26] INFO  Umbraco.Core.PluginManager - [Thread 13] Completed resolution of types of Umbraco.Core.Models.IMacroPropertyType, found 0 (took 11ms)
+2013-05-27 14:21:32,625 [26] INFO  Umbraco.Core.PluginManager - [Thread 13] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 7ms)
+2013-05-27 14:21:32,625 [26] INFO  Umbraco.Core.PluginManager - [Thread 13] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 8ms)
+2013-05-27 14:21:32,640 [26] INFO  Umbraco.Core.PluginManager - [Thread 13] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 5ms)
+2013-05-27 14:21:32,656 [26] INFO  Umbraco.Core.PluginManager - [Thread 13] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 7ms)
+2013-05-27 14:21:32,781 [26] INFO  Umbraco.Core.CoreBootManager - [Thread 13] Umbraco application startup complete (took 567ms)
+2013-05-27 14:21:33,046 [26] INFO  Umbraco.Core.PluginManager - [Thread 13] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 11ms)
+2013-05-27 14:21:33,108 [26] INFO  Umbraco.Core.PluginManager - [Thread 13] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 7ms)
+2013-05-27 14:21:33,202 [26] INFO  umbraco.BusinessLogic.Log - [Thread 9] Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Custom | User: 0 | NodeId: -1 | Comment: [UmbracoExamine] Adding examine event handlers for index providers: 4
+2013-05-27 14:21:33,358 [26] INFO  umbraco.content - [Thread 6] Loading content from disk cache...
+2013-05-27 14:21:33,779 [26] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 4 (took 5ms)
+2013-05-27 14:21:34,794 [26] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of umbraco.interfaces.IDataType, found 77 (took 6ms)
+2013-05-27 14:21:34,825 [26] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of umbraco.interfaces.ITree, found 39 (took 5ms)
+2013-05-27 14:21:34,934 [26] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 15 (took 11ms)
+2013-05-27 14:21:35,480 [26] WARN  umbraco.MacroEngines.DynamicNode - [Thread 6] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:21:35,496 [26] WARN  umbraco.MacroEngines.DynamicNode - [Thread 6] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:21:35,496 [26] WARN  umbraco.MacroEngines.DynamicNode - [Thread 6] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:21:35,496 [26] WARN  umbraco.MacroEngines.DynamicNode - [Thread 6] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:21:53,254 [26] INFO  umbraco.BasePages.BasePage - [Thread 20] User admin (Id: 0) logged in
+2013-05-27 14:21:53,441 [26] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 8ms)
+2013-05-27 14:23:41,388 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 15] Content 'Security Service Specialists' with Id '1077' has been published.
+2013-05-27 14:23:41,528 [26] ERROR umbraco.presentation.nodeFactory.UmbracoSiteMapProvider - [Thread 15] Error adding node 1077 to SiteMapProvider in loadNodes()
+System.InvalidOperationException: Multiple nodes with the same URL '/' were found. XmlSiteMapProvider requires that sitemap nodes have unique URLs.
+   at System.Web.StaticSiteMapProvider.AddNode(SiteMapNode node, SiteMapNode parentNode)
+   at umbraco.presentation.nodeFactory.UmbracoSiteMapProvider.loadNodes(String parentId, SiteMapNode parentNode)
+2013-05-27 14:23:45,851 [26] INFO  umbraco.content - [Thread 30] Loading content from database...
+2013-05-27 14:24:06,182 [26] WARN  umbraco.MacroEngines.DynamicNode - [Thread 21] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:24:06,182 [26] WARN  umbraco.MacroEngines.DynamicNode - [Thread 21] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:24:06,182 [26] WARN  umbraco.MacroEngines.DynamicNode - [Thread 21] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:24:06,182 [26] WARN  umbraco.MacroEngines.DynamicNode - [Thread 21] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:24:12,033 [26] WARN  umbraco.MacroEngines.DynamicNode - [Thread 7] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:24:12,033 [26] WARN  umbraco.MacroEngines.DynamicNode - [Thread 7] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:24:12,033 [26] WARN  umbraco.MacroEngines.DynamicNode - [Thread 7] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:24:12,033 [26] WARN  umbraco.MacroEngines.DynamicNode - [Thread 7] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:24:28,011 [26] WARN  umbraco.MacroEngines.DynamicNode - [Thread 28] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:24:28,011 [26] WARN  umbraco.MacroEngines.DynamicNode - [Thread 28] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:24:28,011 [26] WARN  umbraco.MacroEngines.DynamicNode - [Thread 28] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:24:28,011 [26] WARN  umbraco.MacroEngines.DynamicNode - [Thread 28] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:26:18,367 [26] WARN  umbraco.MacroEngines.DynamicNode - [Thread 20] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:26:18,367 [26] WARN  umbraco.MacroEngines.DynamicNode - [Thread 20] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:26:18,367 [26] WARN  umbraco.MacroEngines.DynamicNode - [Thread 20] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:26:18,367 [26] WARN  umbraco.MacroEngines.DynamicNode - [Thread 20] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:27:33,529 [26] INFO  umbraco.BusinessLogic.Log - [Thread 18] Log scrubbed.  Removed all items older than 2013-03-28 14:27:33
+2013-05-27 14:27:33,545 [26] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 18] Application shutdown. Reason: ConfigurationChange
+2013-05-27 14:27:34,824 [27] INFO  Umbraco.Core.CoreBootManager - [Thread 34] Umbraco application starting
+2013-05-27 14:27:34,887 [27] INFO  Umbraco.Core.PluginManager - [Thread 34] Determining hash of code files on disk
+2013-05-27 14:27:34,902 [27] INFO  Umbraco.Core.PluginManager - [Thread 34] Hash determined (took 14ms)
+2013-05-27 14:27:35,152 [27] INFO  Umbraco.Core.PluginManager - [Thread 34] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 234ms)
+2013-05-27 14:27:35,183 [27] INFO  Umbraco.Core.PluginManager - [Thread 34] Completed resolution of types of Umbraco.Core.Models.IMacroPropertyType, found 0 (took 6ms)
+2013-05-27 14:27:35,183 [27] INFO  Umbraco.Core.PluginManager - [Thread 34] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 5ms)
+2013-05-27 14:27:35,199 [27] INFO  Umbraco.Core.PluginManager - [Thread 34] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 6ms)
+2013-05-27 14:27:35,214 [27] INFO  Umbraco.Core.PluginManager - [Thread 34] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 8ms)
+2013-05-27 14:27:35,214 [27] INFO  Umbraco.Core.PluginManager - [Thread 34] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 5ms)
+2013-05-27 14:27:35,339 [27] INFO  Umbraco.Core.CoreBootManager - [Thread 34] Umbraco application startup complete (took 498ms)
+2013-05-27 14:27:35,558 [27] INFO  Umbraco.Core.PluginManager - [Thread 34] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 11ms)
+2013-05-27 14:27:35,636 [27] INFO  Umbraco.Core.PluginManager - [Thread 34] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 10ms)
+2013-05-27 14:27:35,729 [27] INFO  umbraco.BusinessLogic.Log - [Thread 22] Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Custom | User: 0 | NodeId: -1 | Comment: [UmbracoExamine] Adding examine event handlers for index providers: 4
+2013-05-27 14:28:02,755 [27] INFO  umbraco.content - [Thread 18] Loading content from disk cache...
+2013-05-27 14:28:03,176 [27] INFO  Umbraco.Core.PluginManager - [Thread 18] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 4 (took 6ms)
+2013-05-27 14:28:04,019 [27] INFO  Umbraco.Core.PluginManager - [Thread 18] Completed resolution of types of umbraco.interfaces.IDataType, found 77 (took 6ms)
+2013-05-27 14:28:04,066 [27] INFO  Umbraco.Core.PluginManager - [Thread 18] Completed resolution of types of umbraco.interfaces.ITree, found 39 (took 7ms)
+2013-05-27 14:28:04,144 [27] INFO  Umbraco.Core.PluginManager - [Thread 18] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 15 (took 9ms)
+2013-05-27 14:28:04,799 [27] WARN  umbraco.MacroEngines.DynamicNode - [Thread 18] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:28:04,814 [27] WARN  umbraco.MacroEngines.DynamicNode - [Thread 18] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:28:04,814 [27] WARN  umbraco.MacroEngines.DynamicNode - [Thread 18] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:28:04,814 [27] WARN  umbraco.MacroEngines.DynamicNode - [Thread 18] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:28:09,995 [27] WARN  umbraco.MacroEngines.DynamicNode - [Thread 23] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:28:09,995 [27] WARN  umbraco.MacroEngines.DynamicNode - [Thread 23] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:28:09,995 [27] WARN  umbraco.MacroEngines.DynamicNode - [Thread 23] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:28:09,995 [27] WARN  umbraco.MacroEngines.DynamicNode - [Thread 23] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:29:35,624 [27] WARN  umbraco.MacroEngines.DynamicNode - [Thread 40] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:29:35,624 [27] WARN  umbraco.MacroEngines.DynamicNode - [Thread 40] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:29:35,624 [27] WARN  umbraco.MacroEngines.DynamicNode - [Thread 40] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:29:35,624 [27] WARN  umbraco.MacroEngines.DynamicNode - [Thread 40] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:29:58,359 [27] INFO  umbraco.BusinessLogic.Log - [Thread 22] Log scrubbed.  Removed all items older than 2013-03-28 14:29:58
+2013-05-27 14:29:58,359 [27] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 22] Application shutdown. Reason: ConfigurationChange
+2013-05-27 14:30:04,819 [45] INFO  Umbraco.Core.CoreBootManager - [Thread 44] Umbraco application starting
+2013-05-27 14:30:04,850 [45] INFO  Umbraco.Core.PluginManager - [Thread 44] Determining hash of code files on disk
+2013-05-27 14:30:04,866 [45] INFO  Umbraco.Core.PluginManager - [Thread 44] Hash determined (took 10ms)
+2013-05-27 14:30:05,100 [45] INFO  Umbraco.Core.PluginManager - [Thread 44] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 215ms)
+2013-05-27 14:30:05,131 [45] INFO  Umbraco.Core.PluginManager - [Thread 44] Completed resolution of types of Umbraco.Core.Models.IMacroPropertyType, found 0 (took 6ms)
+2013-05-27 14:30:05,131 [45] INFO  Umbraco.Core.PluginManager - [Thread 44] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 5ms)
+2013-05-27 14:30:05,146 [45] INFO  Umbraco.Core.PluginManager - [Thread 44] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 6ms)
+2013-05-27 14:30:05,162 [45] INFO  Umbraco.Core.PluginManager - [Thread 44] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 5ms)
+2013-05-27 14:30:05,162 [45] INFO  Umbraco.Core.PluginManager - [Thread 44] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 5ms)
+2013-05-27 14:30:05,271 [45] INFO  Umbraco.Core.CoreBootManager - [Thread 44] Umbraco application startup complete (took 454ms)
+2013-05-27 14:30:05,505 [45] INFO  Umbraco.Core.PluginManager - [Thread 44] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 11ms)
+2013-05-27 14:30:05,568 [45] INFO  Umbraco.Core.PluginManager - [Thread 44] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 7ms)
+2013-05-27 14:30:05,630 [45] INFO  umbraco.BusinessLogic.Log - [Thread 28] Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Custom | User: 0 | NodeId: -1 | Comment: [UmbracoExamine] Adding examine event handlers for index providers: 4
+2013-05-27 14:30:07,237 [45] INFO  umbraco.content - [Thread 41] Loading content from disk cache...
+2013-05-27 14:30:07,612 [45] INFO  Umbraco.Core.PluginManager - [Thread 41] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 4 (took 5ms)
+2013-05-27 14:30:08,501 [45] INFO  Umbraco.Core.PluginManager - [Thread 41] Completed resolution of types of umbraco.interfaces.IDataType, found 77 (took 6ms)
+2013-05-27 14:30:08,548 [45] INFO  Umbraco.Core.PluginManager - [Thread 41] Completed resolution of types of umbraco.interfaces.ITree, found 39 (took 5ms)
+2013-05-27 14:30:08,595 [45] INFO  Umbraco.Core.PluginManager - [Thread 41] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 15 (took 8ms)
+2013-05-27 14:30:09,094 [45] WARN  umbraco.MacroEngines.DynamicNode - [Thread 41] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:30:09,110 [45] WARN  umbraco.MacroEngines.DynamicNode - [Thread 41] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:30:09,110 [45] WARN  umbraco.MacroEngines.DynamicNode - [Thread 41] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:30:09,110 [45] WARN  umbraco.MacroEngines.DynamicNode - [Thread 41] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:30:49,337 [45] WARN  umbraco.MacroEngines.DynamicNode - [Thread 28] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:30:49,337 [45] WARN  umbraco.MacroEngines.DynamicNode - [Thread 28] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:30:49,337 [45] WARN  umbraco.MacroEngines.DynamicNode - [Thread 28] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:30:49,337 [45] WARN  umbraco.MacroEngines.DynamicNode - [Thread 28] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:31:08,811 [45] WARN  umbraco.MacroEngines.DynamicNode - [Thread 37] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:31:08,811 [45] WARN  umbraco.MacroEngines.DynamicNode - [Thread 37] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:31:08,811 [45] WARN  umbraco.MacroEngines.DynamicNode - [Thread 37] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:31:08,811 [45] WARN  umbraco.MacroEngines.DynamicNode - [Thread 37] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:31:12,400 [45] WARN  umbraco.MacroEngines.DynamicNode - [Thread 42] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:31:12,400 [45] WARN  umbraco.MacroEngines.DynamicNode - [Thread 42] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:31:12,400 [45] WARN  umbraco.MacroEngines.DynamicNode - [Thread 42] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:31:12,400 [45] WARN  umbraco.MacroEngines.DynamicNode - [Thread 42] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:31:26,303 [45] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 39] An unhandled exception occurred
+System.TypeInitializationException: The type initializer for 'Umbraco.Web.Routing.NotFoundHandlerHelper' threw an exception. ---> System.IO.FileNotFoundException: Could not find file 'C:\Users\RLombardo\Documents\My Web Sites\Security Services CMS\config\404handlers.config'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   at System.Threading.CompressedStack.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at Umbraco.Web.Routing.NotFoundHandlerHelper.InitializeNotFoundHandlers()
+   --- End of inner exception stack trace ---
+   at Umbraco.Web.Routing.NotFoundHandlerHelper.GetLegacyUrlForNotFoundHandlers()
+   at Umbraco.Web.Routing.LookupByNotFoundHandlers.HandlePageNotFound(PublishedContentRequest docRequest)
+   at Umbraco.Web.Routing.LookupByNotFoundHandlers.TrySetDocument(PublishedContentRequest docRequest)
+   at System.Linq.Enumerable.Any[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Umbraco.Web.Routing.PublishedContentRequestBuilder.LookupDocument1()
+   at Umbraco.Web.Routing.PublishedContentRequestBuilder.LookupDocument()
+   at Umbraco.Web.Routing.PublishedContentRequest.ProcessRequest(HttpContextBase httpContext, UmbracoContext umbracoContext, Action`1 onSuccess)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-05-27 14:32:13,224 [45] INFO  umbraco.BusinessLogic.Log - [Thread 42] Log scrubbed.  Removed all items older than 2013-03-28 14:32:13
+2013-05-27 14:32:13,224 [45] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 42] Application shutdown. Reason: ConfigurationChange
+2013-05-27 14:32:14,925 [36] INFO  Umbraco.Core.CoreBootManager - [Thread 27] Umbraco application starting
+2013-05-27 14:32:14,971 [36] INFO  Umbraco.Core.PluginManager - [Thread 27] Determining hash of code files on disk
+2013-05-27 14:32:14,987 [36] INFO  Umbraco.Core.PluginManager - [Thread 27] Hash determined (took 14ms)
+2013-05-27 14:32:15,237 [36] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 236ms)
+2013-05-27 14:32:15,283 [36] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of Umbraco.Core.Models.IMacroPropertyType, found 0 (took 6ms)
+2013-05-27 14:32:15,299 [36] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 7ms)
+2013-05-27 14:32:15,299 [36] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 5ms)
+2013-05-27 14:32:15,315 [36] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 5ms)
+2013-05-27 14:32:15,330 [36] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 5ms)
+2013-05-27 14:32:15,455 [36] INFO  Umbraco.Core.CoreBootManager - [Thread 27] Umbraco application startup complete (took 513ms)
+2013-05-27 14:32:15,705 [36] INFO  umbraco.BusinessLogic.Log - [Thread 41] Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Custom | User: 0 | NodeId: -1 | Comment: [UmbracoExamine] Adding examine event handlers for index providers: 4
+2013-05-27 14:32:15,736 [36] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 14ms)
+2013-05-27 14:32:15,814 [36] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 8ms)
+2013-05-27 14:32:18,310 [36] INFO  umbraco.BusinessLogic.Log - [Thread 22] Log scrubbed.  Removed all items older than 2013-03-28 14:32:18
+2013-05-27 14:32:18,326 [36] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 22] Application shutdown. Reason: ConfigurationChange
+2013-05-27 14:32:24,833 [18] INFO  Umbraco.Core.CoreBootManager - [Thread 27] Umbraco application starting
+2013-05-27 14:32:24,864 [18] INFO  Umbraco.Core.PluginManager - [Thread 27] Determining hash of code files on disk
+2013-05-27 14:32:24,879 [18] INFO  Umbraco.Core.PluginManager - [Thread 27] Hash determined (took 12ms)
+2013-05-27 14:32:25,113 [18] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 214ms)
+2013-05-27 14:32:25,145 [18] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of Umbraco.Core.Models.IMacroPropertyType, found 0 (took 6ms)
+2013-05-27 14:32:25,160 [18] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 6ms)
+2013-05-27 14:32:25,160 [18] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 5ms)
+2013-05-27 14:32:25,176 [18] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 6ms)
+2013-05-27 14:32:25,176 [18] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 5ms)
+2013-05-27 14:32:25,301 [18] INFO  Umbraco.Core.CoreBootManager - [Thread 27] Umbraco application startup complete (took 460ms)
+2013-05-27 14:32:25,519 [18] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 12ms)
+2013-05-27 14:32:25,582 [18] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 8ms)
+2013-05-27 14:32:25,628 [18] INFO  umbraco.BusinessLogic.Log - [Thread 41] Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Custom | User: 0 | NodeId: -1 | Comment: [UmbracoExamine] Adding examine event handlers for index providers: 4
+2013-05-27 14:32:29,186 [18] INFO  umbraco.content - [Thread 28] Loading content from disk cache...
+2013-05-27 14:32:29,326 [18] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 28] An unhandled exception occurred
+System.TypeInitializationException: The type initializer for 'Umbraco.Web.Routing.NotFoundHandlerHelper' threw an exception. ---> System.IO.FileNotFoundException: Could not find file 'C:\Users\RLombardo\Documents\My Web Sites\Security Services CMS\config\404handlers.config'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   at System.Threading.CompressedStack.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at Umbraco.Web.Routing.NotFoundHandlerHelper.InitializeNotFoundHandlers()
+   --- End of inner exception stack trace ---
+   at Umbraco.Web.Routing.NotFoundHandlerHelper.GetLegacyUrlForNotFoundHandlers()
+   at Umbraco.Web.Routing.LookupByNotFoundHandlers.HandlePageNotFound(PublishedContentRequest docRequest)
+   at Umbraco.Web.Routing.LookupByNotFoundHandlers.TrySetDocument(PublishedContentRequest docRequest)
+   at System.Linq.Enumerable.Any[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Umbraco.Web.Routing.PublishedContentRequestBuilder.LookupDocument1()
+   at Umbraco.Web.Routing.PublishedContentRequestBuilder.LookupDocument()
+   at Umbraco.Web.Routing.PublishedContentRequest.ProcessRequest(HttpContextBase httpContext, UmbracoContext umbracoContext, Action`1 onSuccess)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-05-27 14:33:10,098 [18] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 41] An unhandled exception occurred
+System.TypeInitializationException: The type initializer for 'Umbraco.Web.Routing.NotFoundHandlerHelper' threw an exception. ---> System.IO.FileNotFoundException: Could not find file 'C:\Users\RLombardo\Documents\My Web Sites\Security Services CMS\config\404handlers.config'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   at System.Threading.CompressedStack.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at Umbraco.Web.Routing.NotFoundHandlerHelper.InitializeNotFoundHandlers()
+   --- End of inner exception stack trace ---
+   at Umbraco.Web.Routing.NotFoundHandlerHelper.GetLegacyUrlForNotFoundHandlers()
+   at Umbraco.Web.Routing.LookupByNotFoundHandlers.HandlePageNotFound(PublishedContentRequest docRequest)
+   at Umbraco.Web.Routing.LookupByNotFoundHandlers.TrySetDocument(PublishedContentRequest docRequest)
+   at System.Linq.Enumerable.Any[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Umbraco.Web.Routing.PublishedContentRequestBuilder.LookupDocument1()
+   at Umbraco.Web.Routing.PublishedContentRequestBuilder.LookupDocument()
+   at Umbraco.Web.Routing.PublishedContentRequest.ProcessRequest(HttpContextBase httpContext, UmbracoContext umbracoContext, Action`1 onSuccess)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-05-27 14:33:13,905 [18] INFO  Umbraco.Core.PluginManager - [Thread 22] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 4 (took 6ms)
+2013-05-27 14:33:14,732 [18] INFO  Umbraco.Core.PluginManager - [Thread 22] Completed resolution of types of umbraco.interfaces.IDataType, found 77 (took 6ms)
+2013-05-27 14:33:14,794 [18] INFO  Umbraco.Core.PluginManager - [Thread 22] Completed resolution of types of umbraco.interfaces.ITree, found 39 (took 5ms)
+2013-05-27 14:33:14,841 [18] INFO  Umbraco.Core.PluginManager - [Thread 22] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 15 (took 7ms)
+2013-05-27 14:33:15,325 [18] WARN  umbraco.MacroEngines.DynamicNode - [Thread 22] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:33:15,341 [18] WARN  umbraco.MacroEngines.DynamicNode - [Thread 22] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:33:15,341 [18] WARN  umbraco.MacroEngines.DynamicNode - [Thread 22] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:33:15,341 [18] WARN  umbraco.MacroEngines.DynamicNode - [Thread 22] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 14:33:43,046 [18] INFO  umbraco.BusinessLogic.Log - [Thread 28] Log scrubbed.  Removed all items older than 2013-03-28 14:33:43
+2013-05-27 14:33:43,050 [18] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 28] Application shutdown. Reason: ConfigurationChange
+2013-05-27 16:28:42,942 [32] INFO  Umbraco.Core.CoreBootManager - [Thread 18] Umbraco application starting
+2013-05-27 16:28:42,989 [32] INFO  Umbraco.Core.PluginManager - [Thread 18] Determining hash of code files on disk
+2013-05-27 16:28:43,004 [32] INFO  Umbraco.Core.PluginManager - [Thread 18] Hash determined (took 11ms)
+2013-05-27 16:28:43,535 [32] INFO  Umbraco.Core.PluginManager - [Thread 18] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 505ms)
+2013-05-27 16:28:43,566 [32] INFO  Umbraco.Core.PluginManager - [Thread 18] Completed resolution of types of Umbraco.Core.Models.IMacroPropertyType, found 0 (took 6ms)
+2013-05-27 16:28:43,566 [32] INFO  Umbraco.Core.PluginManager - [Thread 18] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 5ms)
+2013-05-27 16:28:43,582 [32] INFO  Umbraco.Core.PluginManager - [Thread 18] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 5ms)
+2013-05-27 16:28:43,582 [32] INFO  Umbraco.Core.PluginManager - [Thread 18] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 5ms)
+2013-05-27 16:28:43,598 [32] INFO  Umbraco.Core.PluginManager - [Thread 18] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 6ms)
+2013-05-27 16:28:43,738 [32] INFO  Umbraco.Core.CoreBootManager - [Thread 18] Umbraco application startup complete (took 786ms)
+2013-05-27 16:28:44,081 [32] INFO  umbraco.BusinessLogic.Log - [Thread 35] Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Custom | User: 0 | NodeId: -1 | Comment: [UmbracoExamine] Adding examine event handlers for index providers: 4
+2013-05-27 16:28:44,097 [32] INFO  Umbraco.Core.PluginManager - [Thread 18] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 15ms)
+2013-05-27 16:28:44,160 [32] INFO  Umbraco.Core.PluginManager - [Thread 18] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 6ms)
+2013-05-27 16:28:44,394 [32] INFO  umbraco.content - [Thread 10] Loading content from disk cache...
+2013-05-27 16:28:44,846 [32] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 4 (took 6ms)
+2013-05-27 16:28:45,752 [32] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of umbraco.interfaces.IDataType, found 77 (took 7ms)
+2013-05-27 16:28:45,783 [32] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of umbraco.interfaces.ITree, found 39 (took 5ms)
+2013-05-27 16:28:45,861 [32] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 15 (took 6ms)
+2013-05-27 16:28:46,360 [32] WARN  umbraco.MacroEngines.DynamicNode - [Thread 10] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:28:46,376 [32] WARN  umbraco.MacroEngines.DynamicNode - [Thread 10] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:28:46,376 [32] WARN  umbraco.MacroEngines.DynamicNode - [Thread 10] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:28:46,376 [32] WARN  umbraco.MacroEngines.DynamicNode - [Thread 10] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:28:58,800 [32] INFO  umbraco.BasePages.BasePage - [Thread 45] User admin (Id: 0) logged in
+2013-05-27 16:28:58,972 [32] INFO  Umbraco.Core.PluginManager - [Thread 35] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 5ms)
+2013-05-27 16:31:52,653 [32] INFO  umbraco.BusinessLogic.Log - [Thread 19] Log scrubbed.  Removed all items older than 2013-03-28 16:31:52
+2013-05-27 16:31:52,653 [32] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 19] Application shutdown. Reason: ConfigurationChange
+2013-05-27 16:31:59,956 [54] INFO  Umbraco.Core.CoreBootManager - [Thread 13] Umbraco application starting
+2013-05-27 16:32:00,002 [54] INFO  Umbraco.Core.PluginManager - [Thread 13] Determining hash of code files on disk
+2013-05-27 16:32:00,018 [54] INFO  Umbraco.Core.PluginManager - [Thread 13] Hash determined (took 14ms)
+2013-05-27 16:32:00,330 [54] INFO  Umbraco.Core.PluginManager - [Thread 13] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 293ms)
+2013-05-27 16:32:00,361 [54] INFO  Umbraco.Core.PluginManager - [Thread 13] Completed resolution of types of Umbraco.Core.Models.IMacroPropertyType, found 0 (took 6ms)
+2013-05-27 16:32:00,377 [54] INFO  Umbraco.Core.PluginManager - [Thread 13] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 6ms)
+2013-05-27 16:32:00,377 [54] INFO  Umbraco.Core.PluginManager - [Thread 13] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 6ms)
+2013-05-27 16:32:00,393 [54] INFO  Umbraco.Core.PluginManager - [Thread 13] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 7ms)
+2013-05-27 16:32:00,393 [54] INFO  Umbraco.Core.PluginManager - [Thread 13] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 6ms)
+2013-05-27 16:32:00,533 [54] INFO  Umbraco.Core.CoreBootManager - [Thread 13] Umbraco application startup complete (took 563ms)
+2013-05-27 16:32:00,783 [54] INFO  Umbraco.Core.PluginManager - [Thread 13] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 11ms)
+2013-05-27 16:32:00,861 [54] INFO  Umbraco.Core.PluginManager - [Thread 13] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 6ms)
+2013-05-27 16:32:00,907 [54] INFO  umbraco.BusinessLogic.Log - [Thread 43] Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Custom | User: 0 | NodeId: -1 | Comment: [UmbracoExamine] Adding examine event handlers for index providers: 4
+2013-05-27 16:32:06,197 [54] INFO  umbraco.content - [Thread 33] Loading content from disk cache...
+2013-05-27 16:32:06,775 [54] INFO  Umbraco.Core.PluginManager - [Thread 31] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 4 (took 6ms)
+2013-05-27 16:32:07,274 [54] INFO  Umbraco.Core.PluginManager - [Thread 31] Completed resolution of types of umbraco.interfaces.IDataType, found 77 (took 6ms)
+2013-05-27 16:32:07,336 [54] INFO  Umbraco.Core.PluginManager - [Thread 31] Completed resolution of types of umbraco.interfaces.ITree, found 39 (took 9ms)
+2013-05-27 16:32:07,399 [54] INFO  Umbraco.Core.PluginManager - [Thread 31] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 15 (took 8ms)
+2013-05-27 16:32:07,945 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 31] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:32:07,960 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 31] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:32:07,960 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 31] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:32:07,960 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 31] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:32:15,482 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 45] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:32:15,482 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 45] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:32:15,482 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 45] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:32:15,482 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 45] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:32:18,634 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 33] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:32:18,634 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 33] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:32:18,634 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 33] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:32:18,634 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 33] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:32:41,120 [54] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 6ms)
+2013-05-27 16:33:06,585 [54] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 45] Content 'Security Service Specialists' with Id '1077' has been published.
+2013-05-27 16:33:06,741 [54] ERROR umbraco.presentation.nodeFactory.UmbracoSiteMapProvider - [Thread 45] Error adding node 1077 to SiteMapProvider in loadNodes()
+System.InvalidOperationException: Multiple nodes with the same URL '/' were found. XmlSiteMapProvider requires that sitemap nodes have unique URLs.
+   at System.Web.StaticSiteMapProvider.AddNode(SiteMapNode node, SiteMapNode parentNode)
+   at umbraco.presentation.nodeFactory.UmbracoSiteMapProvider.loadNodes(String parentId, SiteMapNode parentNode)
+2013-05-27 16:33:11,657 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 43] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:33:11,657 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 43] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:33:11,657 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 43] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:33:11,657 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 43] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:33:20,441 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 46] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:33:20,441 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 46] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:33:20,441 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 46] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:33:20,441 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 46] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:34:27,788 [54] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 5] Content 'Sitemap' with Id '1219' has been published.
+2013-05-27 16:35:03,911 [54] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 19] Content 'Security Service Specialists' with Id '1077' has been published.
+2013-05-27 16:35:07,640 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 36] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:35:07,640 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 36] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:35:07,640 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 36] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:35:07,640 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 36] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:35:10,589 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 5] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:35:10,589 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 5] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:35:10,589 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 5] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:35:10,589 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 5] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:35:21,184 [54] INFO  Umbraco.Core.PluginManager - [Thread 33] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 1 (took 24ms)
+2013-05-27 16:35:52,267 [54] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of umbraco.cms.businesslogic.media.IMediaFactory, found 2 (took 6ms)
+2013-05-27 16:35:53,016 [54] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 19] Success uploading to parent 1068
+2013-05-27 16:36:13,940 [54] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 5] Success uploading to parent 1068
+2013-05-27 16:36:52,014 [54] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 19] Success uploading to parent 1068
+2013-05-27 16:36:57,615 [54] INFO  Umbraco.Core.PluginManager - [Thread 24] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 1 (took 0ms)
+2013-05-27 16:37:40,994 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 35] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:37:40,994 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 35] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:37:40,994 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 35] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:37:40,994 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 35] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:39:19,298 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 36] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:39:19,298 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 36] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:39:19,298 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 36] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:39:19,298 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 36] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:41:03,331 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 36] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:41:03,331 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 36] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:41:03,331 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 36] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:41:03,331 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 36] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:41:45,009 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 47] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:41:45,009 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 47] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:41:45,009 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 47] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:41:45,009 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 47] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:43:24,636 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 50] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:43:24,636 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 50] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:43:24,636 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 50] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:43:24,636 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 50] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:43:28,962 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 31] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:43:28,962 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 31] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:43:28,963 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 31] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:43:28,963 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 31] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:43:32,060 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 47] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:43:32,061 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 47] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:43:32,062 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 47] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:43:32,062 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 47] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:43:34,101 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 31] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:43:34,101 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 31] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:43:34,101 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 31] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:43:34,101 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 31] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:43:37,275 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 47] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:43:37,275 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 47] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:43:37,275 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 47] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:43:37,276 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 47] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:43:40,984 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 45] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:43:40,984 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 45] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:43:40,984 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 45] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:43:40,984 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 45] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:43:43,257 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 23] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:43:43,257 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 23] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:43:43,257 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 23] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:43:43,257 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 23] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:43:45,651 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 36] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:43:45,651 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 36] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:43:45,652 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 36] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:43:45,652 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 36] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:47:39,595 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 47] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:47:39,595 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 47] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:47:39,595 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 47] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:47:39,595 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 47] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:47:42,247 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 36] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:47:42,247 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 36] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:47:42,247 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 36] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:47:42,248 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 36] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:47:45,124 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 43] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:47:45,125 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 43] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:47:45,125 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 43] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:47:45,126 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 43] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:47:46,768 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 47] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:47:46,768 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 47] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:47:46,768 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 47] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:47:46,768 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 47] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:47:47,885 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 51] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:47:47,885 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 51] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:47:47,886 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 51] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:47:47,886 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 51] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:47:53,543 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 51] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:47:53,543 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 51] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:47:53,543 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 51] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:47:53,544 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 51] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:47:58,615 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 51] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:47:58,615 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 51] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:47:58,615 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 51] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:47:58,615 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 51] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:48:01,121 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 51] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:48:01,121 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 51] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:48:01,123 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 51] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:48:01,124 [54] WARN  umbraco.MacroEngines.DynamicNode - [Thread 51] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 16:55:20,885 [54] INFO  umbraco.BusinessLogic.Log - [Thread 33] Log scrubbed.  Removed all items older than 2013-03-28 16:55:20
+2013-05-27 16:55:20,885 [54] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 33] Application shutdown. Reason: ConfigurationChange
+2013-05-27 17:13:53,798 [40] INFO  Umbraco.Core.CoreBootManager - [Thread 27] Umbraco application starting
+2013-05-27 17:13:53,845 [40] INFO  Umbraco.Core.PluginManager - [Thread 27] Determining hash of code files on disk
+2013-05-27 17:13:53,845 [40] INFO  Umbraco.Core.PluginManager - [Thread 27] Hash determined (took 11ms)
+2013-05-27 17:13:54,110 [40] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 247ms)
+2013-05-27 17:13:54,141 [40] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of Umbraco.Core.Models.IMacroPropertyType, found 0 (took 6ms)
+2013-05-27 17:13:54,157 [40] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 6ms)
+2013-05-27 17:13:54,157 [40] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 5ms)
+2013-05-27 17:13:54,188 [40] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 7ms)
+2013-05-27 17:13:54,188 [40] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 5ms)
+2013-05-27 17:13:54,328 [40] INFO  Umbraco.Core.CoreBootManager - [Thread 27] Umbraco application startup complete (took 519ms)
+2013-05-27 17:13:54,656 [40] INFO  umbraco.BusinessLogic.Log - [Thread 23] Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Custom | User: 0 | NodeId: -1 | Comment: [UmbracoExamine] Adding examine event handlers for index providers: 4
+2013-05-27 17:13:54,687 [40] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 17ms)
+2013-05-27 17:13:54,765 [40] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 10ms)
+2013-05-27 17:13:54,999 [40] INFO  umbraco.content - [Thread 39] Loading content from disk cache...
+2013-05-27 17:13:57,138 [40] INFO  Umbraco.Core.PluginManager - [Thread 39] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 4 (took 7ms)
+2013-05-27 17:13:59,167 [40] INFO  Umbraco.Core.PluginManager - [Thread 39] Completed resolution of types of umbraco.interfaces.IDataType, found 77 (took 6ms)
+2013-05-27 17:13:59,198 [40] INFO  Umbraco.Core.PluginManager - [Thread 39] Completed resolution of types of umbraco.interfaces.ITree, found 39 (took 5ms)
+2013-05-27 17:13:59,291 [40] INFO  Umbraco.Core.PluginManager - [Thread 39] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 15 (took 11ms)
+2013-05-27 17:14:00,618 [40] WARN  umbraco.MacroEngines.DynamicNode - [Thread 39] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 17:14:00,633 [40] WARN  umbraco.MacroEngines.DynamicNode - [Thread 39] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 17:14:00,633 [40] WARN  umbraco.MacroEngines.DynamicNode - [Thread 39] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 17:14:00,633 [40] WARN  umbraco.MacroEngines.DynamicNode - [Thread 39] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 17:14:05,783 [40] WARN  umbraco.MacroEngines.DynamicNode - [Thread 23] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 17:14:05,783 [40] WARN  umbraco.MacroEngines.DynamicNode - [Thread 23] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 17:14:05,783 [40] WARN  umbraco.MacroEngines.DynamicNode - [Thread 23] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 17:14:05,783 [40] WARN  umbraco.MacroEngines.DynamicNode - [Thread 23] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 17:14:09,060 [40] WARN  umbraco.MacroEngines.DynamicNode - [Thread 23] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 17:14:09,060 [40] WARN  umbraco.MacroEngines.DynamicNode - [Thread 23] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 17:14:09,060 [40] WARN  umbraco.MacroEngines.DynamicNode - [Thread 23] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 17:14:09,060 [40] WARN  umbraco.MacroEngines.DynamicNode - [Thread 23] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 17:14:11,790 [40] WARN  umbraco.MacroEngines.DynamicNode - [Thread 51] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 17:14:11,790 [40] WARN  umbraco.MacroEngines.DynamicNode - [Thread 51] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 17:14:11,790 [40] WARN  umbraco.MacroEngines.DynamicNode - [Thread 51] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 17:14:11,790 [40] WARN  umbraco.MacroEngines.DynamicNode - [Thread 51] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 17:14:13,819 [40] WARN  umbraco.MacroEngines.DynamicNode - [Thread 43] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 17:14:13,819 [40] WARN  umbraco.MacroEngines.DynamicNode - [Thread 43] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 17:14:13,819 [40] WARN  umbraco.MacroEngines.DynamicNode - [Thread 43] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 17:14:13,819 [40] WARN  umbraco.MacroEngines.DynamicNode - [Thread 43] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 17:14:16,596 [40] WARN  umbraco.MacroEngines.DynamicNode - [Thread 33] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 17:14:16,596 [40] WARN  umbraco.MacroEngines.DynamicNode - [Thread 33] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 17:14:16,596 [40] WARN  umbraco.MacroEngines.DynamicNode - [Thread 33] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 17:14:16,596 [40] WARN  umbraco.MacroEngines.DynamicNode - [Thread 33] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 17:14:20,809 [40] WARN  umbraco.MacroEngines.DynamicNode - [Thread 39] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 17:14:20,809 [40] WARN  umbraco.MacroEngines.DynamicNode - [Thread 39] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 17:14:20,809 [40] WARN  umbraco.MacroEngines.DynamicNode - [Thread 39] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 17:14:20,809 [40] WARN  umbraco.MacroEngines.DynamicNode - [Thread 39] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 17:14:21,902 [40] WARN  umbraco.MacroEngines.DynamicNode - [Thread 31] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 17:14:21,902 [40] WARN  umbraco.MacroEngines.DynamicNode - [Thread 31] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 17:14:21,902 [40] WARN  umbraco.MacroEngines.DynamicNode - [Thread 31] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 17:14:21,902 [40] WARN  umbraco.MacroEngines.DynamicNode - [Thread 31] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 17:14:24,008 [40] WARN  umbraco.MacroEngines.DynamicNode - [Thread 45] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 17:14:24,008 [40] WARN  umbraco.MacroEngines.DynamicNode - [Thread 45] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 17:14:24,008 [40] WARN  umbraco.MacroEngines.DynamicNode - [Thread 45] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 17:14:24,008 [40] WARN  umbraco.MacroEngines.DynamicNode - [Thread 45] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 17:14:29,204 [40] WARN  umbraco.MacroEngines.DynamicNode - [Thread 43] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 17:14:29,204 [40] WARN  umbraco.MacroEngines.DynamicNode - [Thread 43] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 17:14:29,204 [40] WARN  umbraco.MacroEngines.DynamicNode - [Thread 43] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 17:14:29,204 [40] WARN  umbraco.MacroEngines.DynamicNode - [Thread 43] razorDataTypeModel successfully instantiated but returned null for instance
+2013-05-27 17:14:50,118 [40] INFO  umbraco.BusinessLogic.Log - [Thread 39] Log scrubbed.  Removed all items older than 2013-03-28 17:14:50
+2013-05-27 17:14:50,133 [40] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 39] Application shutdown. Reason: HostingEnvironment
