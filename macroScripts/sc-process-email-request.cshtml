@@ -87,9 +87,9 @@
     }
 
 
-<a id="contact-form"></a>
+<a id="@formName-contact-form"></a>
 <div id="@formName-wrapper" class="inputForm">
-    <form method="post" id="@formName" name="@formName" action="#contact-form">
+    <form method="post" id="@formName" name="@formName" action="#@formName-contact-form">
         @if(stringNotificationMessage!="")
         {         
             <a href="#" class="request-form-notification">
@@ -98,15 +98,15 @@
         }
         <fieldset> 
             <div> 
-                <label for="name">Name:</label> 
+                <label for="@formName-name">Name:</label> 
                 <input type="text" id="@formName-name" name="name" class="text" value="" placeholder="Name"/> 
             </div> 
             <div> 
-                <label for="email">Email:</label> 
+                <label for="@formName-email">Email:</label> 
                 <input type="text" id="@formName-email" name="email" class="text" value="" placeholder="Email"/> 
             </div> 
             <div>
-                <label for="inquiryType">Inquiry Type:</label>
+                <label for="@formName-inquiryType">Inquiry Type:</label>
                 <div class="styled-select">
                     <select id="@formName-inquiryType" name="inquiryType" class="select">
                         <option>General Inquiry</option>
@@ -116,7 +116,7 @@
                 </div>
             </div> 
             <div>
-                <label for="message">Message:</label>
+                <label for="@formName-message">Message:</label>
                 <textarea id="@formName-message" name="message" cols="30" rows="10"></textarea>
             </div>
             <div> 

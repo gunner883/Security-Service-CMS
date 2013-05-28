@@ -1,4 +1,4 @@
-@using umbraco.MacroEngines;
+﻿@using umbraco.MacroEngines;
 @inherits umbraco.MacroEngines.DynamicNodeContext
 
 @*
@@ -26,6 +26,8 @@
         <ul>
 	        @foreach(var item in nodeList.Children)
             {
+				target = "_self";
+				
                 //check to see if the url has data
                 if(item.profile != null)
                 {

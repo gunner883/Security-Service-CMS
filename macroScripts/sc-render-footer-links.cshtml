@@ -23,6 +23,7 @@
                     @foreach(var childItem in item.Children)
                     {
                         var targetUrl = "";
+                        target = "_self";
                         if(childItem.redirectUrl!=null && childItem.redirectUrl.NodeId!=null)
                         {
                             //var redirectUrl = uComponents.DataTypes.UrlPicker.Dto.UrlPickerState.Deserialize("redirectUrl");
